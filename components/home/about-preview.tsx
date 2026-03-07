@@ -1,0 +1,139 @@
+"use client"
+
+import Link from "next/link"
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { ArrowRight, ShieldCheck, Globe2 } from "lucide-react"
+import { useScrollAnimation } from "@/hooks/use-scroll-animation"
+
+const features = [
+  {
+    icon: ShieldCheck,
+    title: "Accreditation & Trust",
+    description: "Recognized by DGCA, NSDC & CTDS Tamil Nadu — ensuring every credential you earn carries real-world value.",
+  },
+  {
+    icon: Globe2,
+    title: "Nationwide Reach",
+    description: "With 18 regional chapters and 150+ partner institutions, IAAA connects learners and professionals across India.",
+  },
+]
+
+export function AboutPreview() {
+  const { ref, isVisible } = useScrollAnimation(0.15)
+
+  return (
+    <section ref={ref} className="py-20 md:py-28 bg-white">
+      <div className="container mx-auto px-4 md:px-8">
+        <div className="grid lg:grid-cols-2 gap-10 xl:gap-16 items-center">
+
+          {/* ── Left: Image with floating card ── */}
+          <div
+            className="relative"
+            style={{
+              opacity: isVisible ? 1 : 0,
+              transform: isVisible ? "translateX(0)" : "translateX(-40px)",
+              transition: "opacity 0.9s cubic-bezier(0.22,1,0.36,1), transform 0.9s cubic-bezier(0.22,1,0.36,1)",
+            }}
+          >
+            {/* Main Image */}
+            <div className="relative rounded-3xl overflow-hidden aspect-4/4.5 shadow-2xl shadow-slate-200">
+              <Image
+                src="/images/aboutimage.jpg"
+                alt="IAAA Aerospace Education"
+                fill
+                className="object-cover"
+              />
+              {/* subtle dark bottom gradient */}
+              <div className="absolute inset-0 bg-linear-to-t from-black/30 via-transparent to-transparent" />
+            </div>
+
+            {/* Floating community card — bottom left */}
+            <div className="absolute bottom-6 left-4 right-4 md:left-6 md:right-auto md:w-72 bg-white/95 backdrop-blur-md rounded-2xl px-5 py-4 shadow-xl border border-slate-100">
+              {/* Avatar stack */}
+              <div className="flex items-center gap-2 mb-3">
+                <div className="flex -space-x-2">
+                  {["/placeholder-user.jpg", "/placeholder-user.jpg", "/placeholder-user.jpg"].map((src, i) => (
+                    <div key={i} className="w-8 h-8 rounded-full border-2 border-white overflow-hidden">
+                      <Image src={src} alt="member" width={32} height={32} className="object-cover" />
+                    </div>
+                  ))}
+                </div>
+                <span className="text-xs font-bold text-white bg-blue-600 rounded-full px-2 py-0.5">5000+</span>
+              </div>
+              <p className="text-sm font-bold text-slate-800 leading-snug">Join our active aerospace community</p>
+              <p className="text-xs text-slate-500 mt-0.5">Members across 18 regional chapters</p>
+            </div>
+
+            {/* Decorative dot pattern */}
+            <div className="absolute -top-4 -right-4 w-24 h-24 opacity-20 pointer-events-none"
+              style={{ backgroundImage: "radial-gradient(circle, #3b82f6 1.5px, transparent 1.5px)", backgroundSize: "10px 10px" }}
+            />
+          </div>
+
+          {/* ── Right: Text Content ── */}
+          <div
+            className="space-y-7"
+            style={{
+              opacity: isVisible ? 1 : 0,
+              transform: isVisible ? "translateX(0)" : "translateX(40px)",
+              transition: "opacity 0.9s cubic-bezier(0.22,1,0.36,1), transform 0.9s cubic-bezier(0.22,1,0.36,1)",
+              transitionDelay: "0.15s",
+            }}
+          >
+            {/* Label */}
+            <span className="inline-block text-xs font-bold text-blue-600 uppercase tracking-[0.2em] bg-blue-50 px-3 py-1 rounded-full">
+              About IAAA
+            </span>
+
+            {/* Heading */}
+            <h2 className="text-4xl md:text-5xl font-black text-slate-900 leading-[1.1] tracking-tight">
+              Where Learning Meets{" "}
+              <span className="text-blue-600">Real Aerospace</span>
+            </h2>
+
+            {/* Description */}
+            <p className="text-lg text-slate-500 leading-relaxed">
+              IAAA isn&apos;t just an association — it&apos;s a launchpad. We bridge the gap between academia and industry, providing hands-on aerospace education, startup support, and professional development. As a registered non-profit trust, we empower students, engineers, and entrepreneurs to build India&apos;s aerospace future — from school to sky.
+            </p>
+
+            {/* Read More Button */}
+            <Button
+              asChild
+              size="lg"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-6 text-base rounded-full shadow-lg shadow-blue-200 group"
+            >
+              <Link href="/about" className="flex items-center gap-2">
+                Learn More About IAAA
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
+              </Link>
+            </Button>
+
+            {/* Feature Cards */}
+            <div className="grid sm:grid-cols-2 gap-4 pt-2">
+              {features.map((feature, index) => (
+                <div
+                  key={feature.title}
+                  className="bg-slate-50 hover:bg-blue-50 border border-slate-100 hover:border-blue-100 rounded-2xl p-5 transition-all duration-300 group"
+                  style={{
+                    opacity: isVisible ? 1 : 0,
+                    transform: isVisible ? "translateY(0)" : "translateY(20px)",
+                    transition: "opacity 0.7s ease, transform 0.7s ease, background 0.3s ease",
+                    transitionDelay: isVisible ? `${0.4 + index * 0.12}s` : "0s",
+                  }}
+                >
+                  <div className="w-11 h-11 rounded-xl bg-blue-100 group-hover:bg-blue-200 flex items-center justify-center mb-4 transition-colors duration-200">
+                    <feature.icon className="w-5 h-5 text-blue-600" />
+                  </div>
+                  <h3 className="font-bold text-slate-800 text-base mb-1">{feature.title}</h3>
+                  <p className="text-sm text-slate-500 leading-relaxed">{feature.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )
+}

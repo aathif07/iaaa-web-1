@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/startup-forum/layout,_N_T_/startup-forum/page,_N_T_/startup-forum"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/startup-forum/__PAGE__",
+    "/startup-forum",
+    "/_index",
+    "/_head"
+  ]
+}
