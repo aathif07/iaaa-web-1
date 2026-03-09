@@ -53,7 +53,7 @@ const features = [
   {
     icon: GraduationCap,
     title: "Education Excellence",
-    description: "Globally recognized diplomas and certifications aligned with DGCA and NSDC standards.",
+  description: "Programs recognised by NSDC & CTDS-TN; aligned with DGCA standards for aviation safety.",
     bg: "bg-amber-50",
     iconBg: "bg-amber-100",
     iconColor: "text-amber-600",

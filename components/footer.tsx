@@ -103,7 +103,7 @@ export function Footer() {
             <div>
               <p className="text-xs font-bold text-slate-500 mb-3 uppercase tracking-wider">Accredited by</p>
               <div className="flex flex-wrap gap-2">
-                {["CTDS TN", "DGCA", "NSDC"].map((badge) => (
+                {["CTDS TN", "NSDC", "DGCA (Aligned)"].map((badge) => (
                   <span
                     key={badge}
                     className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-semibold text-blue-300 hover:border-blue-500 transition-colors"

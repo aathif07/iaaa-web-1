@@ -649,8 +649,8 @@ function Footer() {
                                                 className: "flex flex-wrap gap-2",
                                                 children: [
                                                     "CTDS TN",
-                                                    "DGCA",
-                                                    "NSDC"
+                                                    "NSDC",
+                                                    "DGCA (Aligned)"
                                                 ].map((badge)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-semibold text-blue-300 hover:border-blue-500 transition-colors",
                                                         children: badge

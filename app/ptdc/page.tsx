@@ -11,7 +11,7 @@ const courses=[
   {icon:Wrench,title:"Aircraft Maintenance Technician",subtitle:"One-Year Diploma",description:"Globally accepted certification for MRO & AME careers.",duration:"1 Year",tag:"Diploma",color:"bg-teal-600",light:"bg-teal-50 border-teal-200",tagBg:"bg-teal-100 text-teal-700",featured:false},
   {icon:Award,title:"AMT — Specialization: NDT",subtitle:"One-Year Diploma",description:"Level II Certification (UT, RT, PT, MT, VT) with assured job prospects.",duration:"1 Year",tag:"Diploma",color:"bg-violet-600",light:"bg-violet-50 border-violet-200",tagBg:"bg-violet-100 text-violet-700",featured:false},
   {icon:Cpu,title:"Drone Architecture",subtitle:"One-Year Diploma",description:"Drone Design, Assembly, Flight Operations, and Industry Use Cases.",duration:"1 Year",tag:"Diploma",color:"bg-amber-600",light:"bg-amber-50 border-amber-200",tagBg:"bg-amber-100 text-amber-700",featured:false},
-  {icon:Plane,title:"Short-Term Training & Internships",subtitle:"Multiple Programs",description:"Airline Operations, Drone Tech, AME, NDT, Composites, and Manufacturing.",duration:"3-6 Months",tag:"Training",color:"bg-rose-600",light:"bg-rose-50 border-rose-200",tagBg:"bg-rose-100 text-rose-700",featured:false},
+  {icon:Plane,title:"Short-Term Training & Internships",subtitle:"Multiple Programs",description:"Airline Operations, Drone Tech, AME, NDT, Composites, and Manufacturing.",duration:"2 weeks - 12 months",tag:"Training",color:"bg-rose-600",light:"bg-rose-50 border-rose-200",tagBg:"bg-rose-100 text-rose-700",featured:false},
   {icon:FileCheck,title:"Career-Focused NDT Training",subtitle:"Special Program",description:"Job-ready courses with international Level II certification.",duration:"6 Months",tag:"Training",color:"bg-emerald-600",light:"bg-emerald-50 border-emerald-200",tagBg:"bg-emerald-100 text-emerald-700",featured:false},
 ]
 
@@ -22,7 +22,7 @@ const whyPTDC=[
   {icon:Rocket,title:"Startup Support",desc:"Path from idea to IAAA Startup Forum",color:"text-amber-600",bg:"bg-amber-50"},
 ]
 
-const operations=["PTDCs are hosted at IAAA Regional Hubs or Partner Institutions","Trainers approved by IAAA Academic & Industry Council","Transparent revenue model; supports local training & skill programs","Alignment with DGCA, NSDC, and International Standards"]
+const operations=["PTDCs are hosted at IAAA Regional Hubs or Partner Institutions","Trainers approved by IAAA Academic & Industry Council","Transparent revenue model; supports local training & skill programs","Aligned with DGCA standards; certified by NSDC & CTDS-TN"]
 
 function HeroBanner(){return(
   <section className="relative min-h-[400px] flex items-center overflow-hidden">
@@ -123,6 +123,9 @@ function Internships(){const{ref,v}=useVisible();return(
               </li>
             ))}
           </ul>
+          <p className="mt-5 text-sm text-slate-200 leading-relaxed">
+            IAAA PTDC Annual Diploma Courses are certified by CTDS-TN and NSDC, aligned with DGCA standards and attested by the Government of India / Indian Embassy for global acceptance. Where DGCA is referenced, courses are listed as “Aligned with DGCA Standards” or offered with DGCA module certifications.
+          </p>
         </div>
       </div>
     </div>

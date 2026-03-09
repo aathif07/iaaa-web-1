@@ -82,7 +82,7 @@ export default function MembershipPage(){
           <div style={{opacity:ins.v?1:0,transform:ins.v?"translateX(0)":"translateX(-40px)",transition:"opacity 0.8s ease,transform 0.8s ease"}}>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-violet-50 border border-violet-200 rounded-full mb-6"><Building className="w-4 h-4 text-violet-600"/><span className="text-sm font-semibold text-violet-700">For Institutions</span></div>
             <h2 className="text-4xl font-black text-slate-900 mb-3">Institutional Membership</h2>
-            <div className="flex items-baseline gap-2 mb-5"><span className="text-5xl font-black text-violet-600">Custom</span><span className="text-slate-400">Pricing</span></div>
+            <div className="flex items-baseline gap-2 mb-5"><span className="text-5xl font-black text-violet-600">Launch</span><span className="text-slate-400">Clubs &amp; Hubs</span></div>
             <p className="text-slate-500 leading-relaxed mb-8">For colleges, universities, and schools hosting IAAA Clubs, Regional Hubs, or PTDC Centres — enabling aerospace programs, FDPs, and national recognition.</p>
             <Link href="/membership/institution-apply" className="inline-flex items-center gap-2 px-7 py-3.5 bg-violet-600 text-white rounded-full font-bold text-sm hover:bg-violet-700 transition-colors shadow-lg shadow-violet-200">Register Your Institution<ArrowRight className="w-4 h-4"/></Link>
           </div>

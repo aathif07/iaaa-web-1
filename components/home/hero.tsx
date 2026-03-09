@@ -103,8 +103,8 @@ export function Hero() {
           IAAA enables professional networking and structured knowledge sharing to accelerate growth across the national and international aerospace ecosystem. IAAA serves as a dynamic platform for bridging the gap between industry and academia, fostering a collaborative aerospace community.
         </p>
 
-        {/* CTA Buttons */}
-        <div style={fadeUp(0.68)} className="flex flex-wrap items-center justify-center gap-3 md:gap-4">
+  {/* CTA Buttons */}
+  <div style={fadeUp(0.68)} className="flex flex-wrap items-center justify-center gap-3 md:gap-4">
           <Button
             asChild
             size="lg"
@@ -131,6 +131,17 @@ export function Hero() {
           >
             <Link href="/startup-forum">Startup Forum →</Link>
           </Button>
+        </div>
+
+        {/* IAAA + Foundation highlight */}
+        <div style={fadeUp(0.82)} className="mt-10 max-w-5xl mx-auto bg-white/10 border border-white/15 backdrop-blur-md rounded-3xl p-6 text-left shadow-2xl text-white/90">
+          <p className="text-lg font-semibold mb-2 text-white">The Institute of Aeronautics Astronautics and Aviation (IAAA)</p>
+          <p className="text-sm md:text-base leading-relaxed text-white/85 mb-3">
+            IAAA is a registered professional association established under the Societies Registration Act, 1860, dedicated to advancing the fields of aeronautics, astronautics, aviation, and emerging aerospace technologies in India.
+          </p>
+          <p className="text-sm md:text-base leading-relaxed text-white/85">
+            To support its educational, research, outreach, and social initiatives, the association is strengthened by the IAAA Foundation, a charitable entity registered under the Indian Trusts Act, 1882. The Foundation enables philanthropic activities, student development programs, scholarships, STEM outreach, and national capacity-building initiatives in aerospace and aviation.
+          </p>
         </div>
 
         {/* Scroll Indicator — hides when user scrolls */}
