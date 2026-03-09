@@ -3,6 +3,30 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Responsive Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Responsive Images and Media */
+img, video, canvas, audio, iframe, embed, object {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Professional White & Light Theme */
 :root {
   /* Clean White Base Colors */
@@ -665,4 +689,69 @@ html {
 body {
   background-color: #FFFFFF;
   color: #1F2937;
+}
+
+/* Responsive Utilities */
+@media (max-width: 640px) {
+  .responsive-text {
+    font-size: clamp(0.875rem, 2.5vw, 1rem);
+    line-height: 1.6;
+  }
+  
+  .responsive-heading {
+    font-size: clamp(1.5rem, 6vw, 2.25rem);
+    line-height: 1.2;
+  }
+  
+  .responsive-hero {
+    font-size: clamp(2rem, 10vw, 3rem);
+    line-height: 1.1;
+  }
+}
+
+/* Touch-friendly Interactive Elements */
+@media (hover: none) and (pointer: coarse) {
+  button, [role="button"], .clickable {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  .hover\:scale-105:hover {
+    transform: none;
+  }
+  
+  .group:hover .group-hover\:translate-x-1 {
+    transform: none;
+  }
+}
+
+/* High DPI Display Support */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .high-dpi-optimized {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Container Query Support for Modern Responsive Design */
+@container (max-width: 640px) {
+  .container-responsive {
+    padding: 1rem;
+  }
+}
+
+@container (min-width: 641px) {
+  .container-responsive {
+    padding: 2rem;
+  }
 }

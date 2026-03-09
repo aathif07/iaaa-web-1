@@ -25,7 +25,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rocket$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Rocket$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/rocket.js [app-client] (ecmascript) <export default as Rocket>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [app-client] (ecmascript) <export default as Star>");
 ;
-var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature(), _s2 = __turbopack_context__.k.signature(), _s3 = __turbopack_context__.k.signature(), _s4 = __turbopack_context__.k.signature(), _s5 = __turbopack_context__.k.signature();
+var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature(), _s2 = __turbopack_context__.k.signature(), _s3 = __turbopack_context__.k.signature(), _s4 = __turbopack_context__.k.signature(), _s5 = __turbopack_context__.k.signature(), _s6 = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
@@ -168,11 +168,11 @@ const operations = [
     "PTDCs are hosted at IAAA Regional Hubs or Partner Institutions",
     "Trainers approved by IAAA Academic & Industry Council",
     "Transparent revenue model; supports local training & skill programs",
-    "Alignment with DGCA, NSDC, and International Standards"
+    "Aligned with DGCA Standards, NSDC, and International Standards"
 ];
 function HeroBanner() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative min-h-[400px] flex items-center overflow-hidden",
+        className: "relative min-h-87.5 sm:min-h-100 flex items-center overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0",
@@ -220,16 +220,16 @@ function HeroBanner() {
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24",
+                className: "relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-5",
+                        className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-4 sm:mb-5",
                         children: [
                             "Professional Training",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/frontend/app/ptdc/page.tsx",
                                 lineNumber: 32,
-                                columnNumber: 118
+                                columnNumber: 138
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-teal-400",
@@ -237,7 +237,7 @@ function HeroBanner() {
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/ptdc/page.tsx",
                                 lineNumber: 32,
-                                columnNumber: 123
+                                columnNumber: 143
                             }, this)
                         ]
                     }, void 0, true, {
@@ -246,7 +246,7 @@ function HeroBanner() {
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-lg text-white/70 max-w-xl",
+                        className: "text-base sm:text-lg text-white/70 max-w-lg sm:max-w-xl",
                         children: "Learn, Build, Intern — The IAAA Way"
                     }, void 0, false, {
                         fileName: "[project]/frontend/app/ptdc/page.tsx",
@@ -271,12 +271,12 @@ function Intro() {
     _s1();
     const { ref, v } = useVisible();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-16 bg-white",
+        className: "py-12 sm:py-16 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 ref: ref,
-                className: "max-w-4xl mx-auto text-center",
+                className: "max-w-3xl sm:max-w-4xl mx-auto text-center",
                 style: {
                     opacity: v ? 1 : 0,
                     transform: v ? "translateY(0)" : "translateY(30px)",
@@ -284,7 +284,7 @@ function Intro() {
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-xl text-slate-600 leading-relaxed",
+                        className: "text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed",
                         children: "The PTDC delivers globally recognized diplomas, technical certifications, and industry internships for students and professionals. Every PTDC student is part of the IAAA Internship Network, gaining real industry experience and eligibility to pitch innovations at the IAAA Startup Forum."
                     }, void 0, false, {
                         fileName: "[project]/frontend/app/ptdc/page.tsx",
@@ -292,11 +292,11 @@ function Intro() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-wrap justify-center gap-6 mt-10",
+                        className: "flex flex-wrap justify-center gap-4 sm:gap-6 mt-8 sm:mt-10",
                         children: [
                             {
                                 v: "DGCA",
-                                l: "Accredited"
+                                l: "Standards Aligned"
                             },
                             {
                                 v: "NSDC",
@@ -311,7 +311,7 @@ function Intro() {
                                 l: "Graduates"
                             }
                         ].map((s, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-center",
+                                className: "text-center min-w-0",
                                 style: {
                                     opacity: v ? 1 : 0,
                                     transform: v ? "translateY(0)" : "translateY(20px)",
@@ -319,7 +319,7 @@ function Intro() {
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-3xl font-black text-teal-600",
+                                        className: "text-2xl sm:text-3xl font-black text-teal-600",
                                         children: s.v
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/ptdc/page.tsx",
@@ -327,12 +327,12 @@ function Intro() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-sm text-slate-500 mt-1",
+                                        className: "text-xs sm:text-sm text-slate-500 mt-1",
                                         children: s.l
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/ptdc/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 77
+                                        columnNumber: 89
                                     }, this)
                                 ]
                             }, i, true, {
@@ -933,8 +933,97 @@ _s4(Internships, "88vcf1lIazGQ4hMza1dqFEf7Z3o=", false, function() {
     ];
 });
 _c4 = Internships;
-function PTDCCTA() {
+function Certification() {
     _s5();
+    const { ref, v } = useVisible();
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "py-16 bg-amber-50",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                ref: ref,
+                className: "text-center",
+                style: {
+                    opacity: v ? 1 : 0,
+                    transform: v ? "translateY(0)" : "translateY(30px)",
+                    transition: "opacity 0.7s ease,transform 0.7s ease"
+                },
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "inline-flex items-center gap-2 px-4 py-1.5 bg-amber-100 border border-amber-200 rounded-full mb-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FileCheck$3e$__["FileCheck"], {
+                                className: "w-4 h-4 text-amber-600"
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/app/ptdc/page.tsx",
+                                lineNumber: 136,
+                                columnNumber: 124
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-sm font-semibold text-amber-700 uppercase tracking-wider",
+                                children: "Global Recognition"
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/app/ptdc/page.tsx",
+                                lineNumber: 136,
+                                columnNumber: 171
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/frontend/app/ptdc/page.tsx",
+                        lineNumber: 136,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-3xl md:text-4xl font-black text-slate-900 mb-4",
+                        children: [
+                            "Internationally Recognized ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-amber-600",
+                                children: "Certifications"
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/app/ptdc/page.tsx",
+                                lineNumber: 137,
+                                columnNumber: 104
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/frontend/app/ptdc/page.tsx",
+                        lineNumber: 137,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-slate-600 text-lg max-w-4xl mx-auto leading-relaxed",
+                        children: 'IAAA PTDC Annual Diploma Courses are certified by CTDS-TN, NSDC, Government of India attested by Indian Embassy accepted across the globe. Wherever DGCA comes it should as "Aligned with DGCA Standards" not Course accredited by DGCA. Or along with DGCA Module Certification is ok'
+                    }, void 0, false, {
+                        fileName: "[project]/frontend/app/ptdc/page.tsx",
+                        lineNumber: 138,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/frontend/app/ptdc/page.tsx",
+                lineNumber: 135,
+                columnNumber: 7
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/frontend/app/ptdc/page.tsx",
+            lineNumber: 134,
+            columnNumber: 5
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/frontend/app/ptdc/page.tsx",
+        lineNumber: 133,
+        columnNumber: 3
+    }, this);
+}
+_s5(Certification, "88vcf1lIazGQ4hMza1dqFEf7Z3o=", false, function() {
+    return [
+        useVisible
+    ];
+});
+_c5 = Certification;
+function PTDCCTA() {
+    _s6();
     const { ref, v } = useVisible();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "py-20 bg-linear-to-r from-teal-600 to-blue-600 relative overflow-hidden",
@@ -947,7 +1036,7 @@ function PTDCCTA() {
                 }
             }, void 0, false, {
                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                lineNumber: 134,
+                lineNumber: 146,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -965,7 +1054,7 @@ function PTDCCTA() {
                             "Ready to Start Your",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                                lineNumber: 136,
+                                lineNumber: 148,
                                 columnNumber: 90
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -973,13 +1062,13 @@ function PTDCCTA() {
                                 children: "Aerospace Career?"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                                lineNumber: 136,
+                                lineNumber: 148,
                                 columnNumber: 95
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/app/ptdc/page.tsx",
-                        lineNumber: 136,
+                        lineNumber: 148,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -987,7 +1076,7 @@ function PTDCCTA() {
                         children: "Join PTDC and get access to world-class training, industry internships, and career support."
                     }, void 0, false, {
                         fileName: "[project]/frontend/app/ptdc/page.tsx",
-                        lineNumber: 137,
+                        lineNumber: 149,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1002,13 +1091,13 @@ function PTDCCTA() {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/ptdc/page.tsx",
-                                        lineNumber: 139,
+                                        lineNumber: 151,
                                         columnNumber: 198
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                                lineNumber: 139,
+                                lineNumber: 151,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1020,85 +1109,91 @@ function PTDCCTA() {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/ptdc/page.tsx",
-                                        lineNumber: 140,
+                                        lineNumber: 152,
                                         columnNumber: 221
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                                lineNumber: 140,
+                                lineNumber: 152,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/app/ptdc/page.tsx",
-                        lineNumber: 138,
+                        lineNumber: 150,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                lineNumber: 135,
+                lineNumber: 147,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/frontend/app/ptdc/page.tsx",
-        lineNumber: 133,
+        lineNumber: 145,
         columnNumber: 3
     }, this);
 }
-_s5(PTDCCTA, "88vcf1lIazGQ4hMza1dqFEf7Z3o=", false, function() {
+_s6(PTDCCTA, "88vcf1lIazGQ4hMza1dqFEf7Z3o=", false, function() {
     return [
         useVisible
     ];
 });
-_c5 = PTDCCTA;
+_c6 = PTDCCTA;
 function PTDCPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(HeroBanner, {}, void 0, false, {
                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                lineNumber: 146,
+                lineNumber: 158,
                 columnNumber: 45
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Intro, {}, void 0, false, {
                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                lineNumber: 146,
+                lineNumber: 158,
                 columnNumber: 58
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Courses, {}, void 0, false, {
                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                lineNumber: 146,
+                lineNumber: 158,
                 columnNumber: 66
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(WhyPTDC, {}, void 0, false, {
                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                lineNumber: 146,
+                lineNumber: 158,
                 columnNumber: 76
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Internships, {}, void 0, false, {
                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                lineNumber: 146,
+                lineNumber: 158,
                 columnNumber: 86
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Certification, {}, void 0, false, {
+                fileName: "[project]/frontend/app/ptdc/page.tsx",
+                lineNumber: 158,
+                columnNumber: 100
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PTDCCTA, {}, void 0, false, {
                 fileName: "[project]/frontend/app/ptdc/page.tsx",
-                lineNumber: 146,
-                columnNumber: 100
+                lineNumber: 158,
+                columnNumber: 116
             }, this)
         ]
     }, void 0, true);
 }
-_c6 = PTDCPage;
-var _c, _c1, _c2, _c3, _c4, _c5, _c6;
+_c7 = PTDCPage;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7;
 __turbopack_context__.k.register(_c, "HeroBanner");
 __turbopack_context__.k.register(_c1, "Intro");
 __turbopack_context__.k.register(_c2, "Courses");
 __turbopack_context__.k.register(_c3, "WhyPTDC");
 __turbopack_context__.k.register(_c4, "Internships");
-__turbopack_context__.k.register(_c5, "PTDCCTA");
-__turbopack_context__.k.register(_c6, "PTDCPage");
+__turbopack_context__.k.register(_c5, "Certification");
+__turbopack_context__.k.register(_c6, "PTDCCTA");
+__turbopack_context__.k.register(_c7, "PTDCPage");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

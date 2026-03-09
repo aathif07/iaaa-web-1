@@ -48,16 +48,16 @@ export function Header() {
           : "bg-blue-500 backdrop-blur-sm rounded-3xl mx-4 mt-4 border border-blue-400/20"
       )}
     >
-      <nav className="mx-auto w-full px-4 sm:px-6 lg:px-8">
-        <div className="flex h-20 items-center justify-between gap-4">
+      <nav className="mx-auto w-full px-3 sm:px-4 lg:px-6 xl:px-8">
+        <div className="flex h-16 sm:h-18 lg:h-20 items-center justify-between gap-2 sm:gap-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 shrink-0">
-            <div className="relative w-14 h-14">
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 shrink-0">
+            <div className="relative w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14">
               <Image src="/logo.png" alt="IAAA Logo" fill className="object-contain" priority />
             </div>
             <div className="hidden sm:block">
-              <span className="text-xl font-bold text-white">IAAA</span>
-              <span className="hidden md:inline text-sm text-blue-100 ml-1">India</span>
+              <span className="text-lg sm:text-xl font-bold text-white">IAAA</span>
+              <span className="hidden md:inline text-xs sm:text-sm text-blue-100 ml-1">India</span>
             </div>
           </Link>
 

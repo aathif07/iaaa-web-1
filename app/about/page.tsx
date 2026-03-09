@@ -140,12 +140,12 @@ function HeroBanner() {
         }}
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-5">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 lg:py-28">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-4 sm:mb-5">
           Building India&apos;s<br />
           <span className="text-amber-400">Aerospace Ecosystem</span>
         </h1>
-        <p className="text-lg text-white/70 max-w-xl leading-relaxed">
+        <p className="text-base sm:text-lg text-white/70 max-w-lg sm:max-w-xl leading-relaxed">
           Through Education, Innovation &amp; Industry Collaboration
         </p>
       </div>
@@ -157,9 +157,9 @@ function HeroBanner() {
 function AboutIntro() {
   const { ref, v } = useVisible()
   return (
-    <section className="py-20 md:py-28 bg-white">
+    <section className="py-16 sm:py-20 md:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div ref={ref} className="grid lg:grid-cols-2 gap-14 items-center">
+        <div ref={ref} className="grid lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-14 items-center">
           {/* Left image */}
           <div
             style={{

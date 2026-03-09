@@ -55,16 +55,16 @@ export function Footer() {
       <div className="h-1 bg-linear-to-r from-blue-500 via-blue-400 to-blue-600" />
 
       {/* Main content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 pb-8 sm:pb-10">
 
         {/* Top section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-14">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 mb-10 sm:mb-12 lg:mb-14">
 
           {/* Brand column */}
           <div className="lg:col-span-4">
             {/* Logo — same as header */}
-            <Link href="/" className="inline-flex items-center gap-3 mb-6 group">
-              <div className="relative w-14 h-14 flex-shrink-0">
+            <Link href="/" className="inline-flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 group">
+              <div className="relative w-12 sm:w-14 h-12 sm:h-14 shrink-0">
                 <Image
                   src="/logo.png"
                   alt="IAAA Logo"
@@ -74,8 +74,8 @@ export function Footer() {
                 />
               </div>
               <div>
-                <span className="text-xl font-bold text-white block leading-tight">IAAA</span>
-                <span className="text-sm text-blue-300 font-medium">Aerospace Institute</span>
+                <span className="text-lg sm:text-xl font-bold text-white block leading-tight">IAAA</span>
+                <span className="text-xs sm:text-sm text-blue-300 font-medium">Aerospace Institute</span>
               </div>
             </Link>
 

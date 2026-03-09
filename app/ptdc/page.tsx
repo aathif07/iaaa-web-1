@@ -25,25 +25,25 @@ const whyPTDC=[
 const operations=["PTDCs are hosted at IAAA Regional Hubs or Partner Institutions","Trainers approved by IAAA Academic & Industry Council","Transparent revenue model; supports local training & skill programs","Aligned with DGCA Standards, NSDC, and International Standards"]
 
 function HeroBanner(){return(
-  <section className="relative min-h-[400px] flex items-center overflow-hidden">
+  <section className="relative min-h-87.5 sm:min-h-100 flex items-center overflow-hidden">
     <div className="absolute inset-0"><Image src="/gallery/aerospace-3.jpg" alt="PTDC" fill className="object-cover" priority/><div className="absolute inset-0 bg-slate-900/75"/><div className="absolute inset-0 bg-linear-to-r from-slate-900/85 via-slate-900/40 to-transparent"/></div>
     <div className="absolute inset-0 opacity-10" style={{backgroundImage:"linear-gradient(rgba(255,255,255,0.15) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.15) 1px,transparent 1px)",backgroundSize:"60px 60px"}}/>
-    <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-5">Professional Training<br/><span className="text-teal-400">&amp; Development Centre</span></h1>
-      <p className="text-lg text-white/70 max-w-xl">Learn, Build, Intern — The IAAA Way</p>
+    <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-4 sm:mb-5">Professional Training<br/><span className="text-teal-400">&amp; Development Centre</span></h1>
+      <p className="text-base sm:text-lg text-white/70 max-w-lg sm:max-w-xl">Learn, Build, Intern — The IAAA Way</p>
     </div>
   </section>
 )}
 
 function Intro(){const{ref,v}=useVisible();return(
-  <section className="py-16 bg-white">
+  <section className="py-12 sm:py-16 bg-white">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div ref={ref} className="max-w-4xl mx-auto text-center" style={{opacity:v?1:0,transform:v?"translateY(0)":"translateY(30px)",transition:"opacity 0.7s ease,transform 0.7s ease"}}>
-        <p className="text-xl text-slate-600 leading-relaxed">The PTDC delivers globally recognized diplomas, technical certifications, and industry internships for students and professionals. Every PTDC student is part of the IAAA Internship Network, gaining real industry experience and eligibility to pitch innovations at the IAAA Startup Forum.</p>
-        <div className="flex flex-wrap justify-center gap-6 mt-10">
+      <div ref={ref} className="max-w-3xl sm:max-w-4xl mx-auto text-center" style={{opacity:v?1:0,transform:v?"translateY(0)":"translateY(30px)",transition:"opacity 0.7s ease,transform 0.7s ease"}}>
+        <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">The PTDC delivers globally recognized diplomas, technical certifications, and industry internships for students and professionals. Every PTDC student is part of the IAAA Internship Network, gaining real industry experience and eligibility to pitch innovations at the IAAA Startup Forum.</p>
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mt-8 sm:mt-10">
           {[{v:"DGCA",l:"Standards Aligned"},{v:"NSDC",l:"Certified"},{v:"6+",l:"Programs"},{v:"1000+",l:"Graduates"}].map((s,i)=>(
-            <div key={i} className="text-center" style={{opacity:v?1:0,transform:v?"translateY(0)":"translateY(20px)",transition:`opacity 0.5s ${0.1+i*0.1}s ease,transform 0.5s ${0.1+i*0.1}s ease`}}>
-              <div className="text-3xl font-black text-teal-600">{s.v}</div><div className="text-sm text-slate-500 mt-1">{s.l}</div>
+            <div key={i} className="text-center min-w-0" style={{opacity:v?1:0,transform:v?"translateY(0)":"translateY(20px)",transition:`opacity 0.5s ${0.1+i*0.1}s ease,transform 0.5s ${0.1+i*0.1}s ease`}}>
+              <div className="text-2xl sm:text-3xl font-black text-teal-600">{s.v}</div><div className="text-xs sm:text-sm text-slate-500 mt-1">{s.l}</div>
             </div>
           ))}
         </div>

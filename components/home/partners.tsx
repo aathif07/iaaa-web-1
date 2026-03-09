@@ -54,26 +54,26 @@ export function Partners() {
   const { ref, visible } = useVisible()
 
   return (
-    <section id="partners" className="py-20 md:py-28 bg-slate-50">
+    <section id="partners" className="py-16 sm:py-20 md:py-28 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={ref}>
           {/* Header */}
           <div
-            className="text-center max-w-3xl mx-auto mb-14"
+            className="text-center max-w-3xl mx-auto mb-10 sm:mb-12 md:mb-14"
             style={{
               opacity: visible ? 1 : 0,
               transform: visible ? "translateY(0)" : "translateY(30px)",
               transition: "opacity 0.7s cubic-bezier(0.22,1,0.36,1), transform 0.7s cubic-bezier(0.22,1,0.36,1)",
             }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-full mb-6 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-blue-500" />
-              <span className="text-sm font-semibold text-slate-600 uppercase tracking-wider">Collaborations</span>
+            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white border border-slate-200 rounded-full mb-4 sm:mb-6 shadow-sm">
+              <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-blue-500" />
+              <span className="text-xs sm:text-sm font-semibold text-slate-600 uppercase tracking-wider">Collaborations</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 leading-tight mb-3 sm:mb-4 px-4">
               Partnered organisations for<br /><span className="text-blue-600">events, outreach and training programs</span>
             </h2>
-            <p className="text-lg text-slate-500">
+            <p className="text-base sm:text-lg text-slate-500">
               Bridging Academia, Industry, and Innovation
             </p>
           </div>

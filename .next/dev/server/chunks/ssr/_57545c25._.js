@@ -82,7 +82,7 @@ const features = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__["GraduationCap"],
         title: "Education Excellence",
-        description: "Programs recognised by NSDC & CTDS-TN; aligned with DGCA standards for aviation safety.",
+        description: "Globally recognized diplomas and certifications aligned with NSDC standards and international aerospace requirements.",
         bg: "bg-amber-50",
         iconBg: "bg-amber-100",
         iconColor: "text-amber-600",
@@ -206,10 +206,10 @@ const values = [
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28",
+                className: "relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 lg:py-28",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-5",
+                        className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-4 sm:mb-5",
                         children: [
                             "Building India's",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -232,7 +232,7 @@ const values = [
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-lg text-white/70 max-w-xl leading-relaxed",
+                        className: "text-base sm:text-lg text-white/70 max-w-lg sm:max-w-xl leading-relaxed",
                         children: "Through Education, Innovation & Industry Collaboration"
                     }, void 0, false, {
                         fileName: "[project]/frontend/app/about/page.tsx",
@@ -255,12 +255,12 @@ const values = [
 /* ─── About Intro ─── */ function AboutIntro() {
     const { ref, v } = useVisible();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-20 md:py-28 bg-white",
+        className: "py-16 sm:py-20 md:py-28 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 ref: ref,
-                className: "grid lg:grid-cols-2 gap-14 items-center",
+                className: "grid lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-14 items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
@@ -416,10 +416,18 @@ const values = [
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-slate-600 leading-relaxed text-lg mb-5",
-                                children: "The Institute of Aeronautics, Astronautics and Aviation (IAAA) is a registered non-profit trust and association, accredited by the Council for Technical and Vocational Development Science TN (CTDS TN)."
+                                children: "The Institute of Aeronautics Astronautics and Aviation (IAAA) is a registered professional association established under the Societies Registration Act, 1860, dedicated to advancing the fields of aeronautics, astronautics, aviation, and emerging aerospace technologies in India."
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
                                 lineNumber: 214,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-slate-500 leading-relaxed mb-5",
+                                children: "To support its educational, research, outreach, and social initiatives, the association is strengthened by the IAAA Foundation, a charitable entity registered under the provisions of the Indian Trusts Act, 1882. The Foundation enables the organization to undertake philanthropic activities, student development programs, scholarships, STEM outreach, and national capacity-building initiatives in aerospace and aviation."
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/app/about/page.tsx",
+                                lineNumber: 217,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -427,7 +435,7 @@ const values = [
                                 children: "IAAA bridges academia, industry, and government to provide globally recognized aerospace education, technical training, and professional development — empowering students, faculties, professionals, industry leaders, and policymakers to lead advancements in Aeronautics, Astronautics, Aviation, Drone Technology, and Space Sciences."
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 219,
+                                lineNumber: 220,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -439,13 +447,13 @@ const values = [
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/about/page.tsx",
-                                        lineNumber: 231,
+                                        lineNumber: 229,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 226,
+                                lineNumber: 224,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -494,12 +502,12 @@ const values = [
                                     className: "w-6 h-6 text-amber-400"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 258,
+                                    lineNumber: 256,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 257,
+                                lineNumber: 255,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -507,7 +515,7 @@ const values = [
                                 children: stat.value
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 260,
+                                lineNumber: 258,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -515,28 +523,28 @@ const values = [
                                 children: stat.label
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 261,
+                                lineNumber: 259,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, stat.label, true, {
                         fileName: "[project]/frontend/app/about/page.tsx",
-                        lineNumber: 248,
+                        lineNumber: 246,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 246,
+                lineNumber: 244,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/frontend/app/about/page.tsx",
-            lineNumber: 245,
+            lineNumber: 243,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/frontend/app/about/page.tsx",
-        lineNumber: 244,
+        lineNumber: 242,
         columnNumber: 5
     }, this);
 }
@@ -563,7 +571,7 @@ const values = [
                                     className: "w-1.5 h-1.5 rounded-full bg-teal-500"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 285,
+                                    lineNumber: 283,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -571,13 +579,13 @@ const values = [
                                     children: "Our Purpose"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 284,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 284,
+                            lineNumber: 282,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -585,13 +593,13 @@ const values = [
                             children: "Vision & Mission"
                         }, void 0, false, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 288,
+                            lineNumber: 286,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/frontend/app/about/page.tsx",
-                    lineNumber: 276,
+                    lineNumber: 274,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -609,7 +617,7 @@ const values = [
                                     className: "absolute top-0 right-0 w-40 h-40 bg-teal-50 rounded-full -translate-y-1/2 translate-x-1/2"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 301,
+                                    lineNumber: 299,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -621,12 +629,12 @@ const values = [
                                                 className: "w-7 h-7 text-teal-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                                lineNumber: 304,
+                                                lineNumber: 302,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/app/about/page.tsx",
-                                            lineNumber: 303,
+                                            lineNumber: 301,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -634,7 +642,7 @@ const values = [
                                             children: "Our Vision"
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/app/about/page.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 304,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -642,19 +650,19 @@ const values = [
                                             children: "To make aerospace education accessible, practical, and industry-oriented for students, faculties, and professionals across India — from school to sky."
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/app/about/page.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 305,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 302,
+                                    lineNumber: 300,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 293,
+                            lineNumber: 291,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -669,7 +677,7 @@ const values = [
                                     className: "absolute top-0 right-0 w-40 h-40 bg-violet-50 rounded-full -translate-y-1/2 translate-x-1/2"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 323,
+                                    lineNumber: 321,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -681,12 +689,12 @@ const values = [
                                                 className: "w-7 h-7 text-violet-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                                lineNumber: 326,
+                                                lineNumber: 324,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/app/about/page.tsx",
-                                            lineNumber: 325,
+                                            lineNumber: 323,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -694,7 +702,7 @@ const values = [
                                             children: "Our Mission"
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/app/about/page.tsx",
-                                            lineNumber: 328,
+                                            lineNumber: 326,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -708,12 +716,12 @@ const values = [
                                                                 className: "w-3.5 h-3.5 text-violet-600"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                                                lineNumber: 333,
+                                                                lineNumber: 331,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/frontend/app/about/page.tsx",
-                                                            lineNumber: 332,
+                                                            lineNumber: 330,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -721,47 +729,47 @@ const values = [
                                                             children: m
                                                         }, void 0, false, {
                                                             fileName: "[project]/frontend/app/about/page.tsx",
-                                                            lineNumber: 335,
+                                                            lineNumber: 333,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, i, true, {
                                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                                    lineNumber: 331,
+                                                    lineNumber: 329,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/app/about/page.tsx",
-                                            lineNumber: 329,
+                                            lineNumber: 327,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 324,
+                                    lineNumber: 322,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 315,
+                            lineNumber: 313,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/frontend/app/about/page.tsx",
-                    lineNumber: 291,
+                    lineNumber: 289,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/frontend/app/about/page.tsx",
-            lineNumber: 275,
+            lineNumber: 273,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/frontend/app/about/page.tsx",
-        lineNumber: 274,
+        lineNumber: 272,
         columnNumber: 5
     }, this);
 }
@@ -788,7 +796,7 @@ const values = [
                                     className: "w-1.5 h-1.5 rounded-full bg-rose-500"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 362,
+                                    lineNumber: 360,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -796,13 +804,13 @@ const values = [
                                     children: "What We Do"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 363,
+                                    lineNumber: 361,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 361,
+                            lineNumber: 359,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -811,7 +819,7 @@ const values = [
                                 "Comprehensive Aerospace",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 366,
+                                    lineNumber: 364,
                                     columnNumber: 36
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -819,13 +827,13 @@ const values = [
                                     children: "Ecosystem"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 367,
+                                    lineNumber: 365,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 365,
+                            lineNumber: 363,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -833,13 +841,13 @@ const values = [
                             children: "Developing aerospace talent through multiple interconnected channels"
                         }, void 0, false, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 369,
+                            lineNumber: 367,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/frontend/app/about/page.tsx",
-                    lineNumber: 353,
+                    lineNumber: 351,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -858,12 +866,12 @@ const values = [
                                         className: `w-6 h-6 ${f.iconColor}`
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/about/page.tsx",
-                                        lineNumber: 386,
+                                        lineNumber: 384,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 385,
+                                    lineNumber: 383,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -871,7 +879,7 @@ const values = [
                                     children: f.title
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 388,
+                                    lineNumber: 386,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -879,29 +887,29 @@ const values = [
                                     children: f.description
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 389,
+                                    lineNumber: 387,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, f.title, true, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 376,
+                            lineNumber: 374,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/frontend/app/about/page.tsx",
-                    lineNumber: 374,
+                    lineNumber: 372,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/frontend/app/about/page.tsx",
-            lineNumber: 352,
+            lineNumber: 350,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/frontend/app/about/page.tsx",
-        lineNumber: 351,
+        lineNumber: 349,
         columnNumber: 5
     }, this);
 }
@@ -914,14 +922,14 @@ const values = [
                 className: "absolute top-0 right-0 w-96 h-96 bg-amber-400/5 rounded-full -translate-y-1/3 translate-x-1/3"
             }, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 404,
+                lineNumber: 402,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute bottom-0 left-0 w-72 h-72 bg-teal-400/5 rounded-full translate-y-1/3 -translate-x-1/3"
             }, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 405,
+                lineNumber: 403,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -943,7 +951,7 @@ const values = [
                                         className: "w-1.5 h-1.5 rounded-full bg-amber-400"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/about/page.tsx",
-                                        lineNumber: 417,
+                                        lineNumber: 415,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -951,13 +959,13 @@ const values = [
                                         children: "Our Values"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/about/page.tsx",
-                                        lineNumber: 418,
+                                        lineNumber: 416,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 416,
+                                lineNumber: 414,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -965,13 +973,13 @@ const values = [
                                 children: "What Drives Us"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 420,
+                                lineNumber: 418,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/app/about/page.tsx",
-                        lineNumber: 408,
+                        lineNumber: 406,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -990,12 +998,12 @@ const values = [
                                             className: "w-6 h-6 text-amber-400"
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/app/about/page.tsx",
-                                            lineNumber: 437,
+                                            lineNumber: 435,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/about/page.tsx",
-                                        lineNumber: 436,
+                                        lineNumber: 434,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1003,7 +1011,7 @@ const values = [
                                         children: val.title
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/about/page.tsx",
-                                        lineNumber: 439,
+                                        lineNumber: 437,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1011,30 +1019,30 @@ const values = [
                                         children: val.desc
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/about/page.tsx",
-                                        lineNumber: 440,
+                                        lineNumber: 438,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, val.title, true, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 427,
+                                lineNumber: 425,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/frontend/app/about/page.tsx",
-                        lineNumber: 425,
+                        lineNumber: 423,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 407,
+                lineNumber: 405,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/frontend/app/about/page.tsx",
-        lineNumber: 402,
+        lineNumber: 400,
         columnNumber: 5
     }, this);
 }
@@ -1065,7 +1073,7 @@ const values = [
                             children: "Our Journey in Photos"
                         }, void 0, false, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 467,
+                            lineNumber: 465,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1077,24 +1085,24 @@ const values = [
                                     className: "w-4 h-4"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/app/about/page.tsx",
-                                    lineNumber: 469,
+                                    lineNumber: 467,
                                     columnNumber: 26
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 468,
+                            lineNumber: 466,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/frontend/app/about/page.tsx",
-                    lineNumber: 462,
+                    lineNumber: 460,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 461,
+                lineNumber: 459,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1117,23 +1125,23 @@ const values = [
                             className: "object-cover hover:scale-105 transition-transform duration-500"
                         }, void 0, false, {
                             fileName: "[project]/frontend/app/about/page.tsx",
-                            lineNumber: 490,
+                            lineNumber: 488,
                             columnNumber: 13
                         }, this)
                     }, i, false, {
                         fileName: "[project]/frontend/app/about/page.tsx",
-                        lineNumber: 481,
+                        lineNumber: 479,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 473,
+                lineNumber: 471,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/frontend/app/about/page.tsx",
-        lineNumber: 460,
+        lineNumber: 458,
         columnNumber: 5
     }, this);
 }
@@ -1150,21 +1158,21 @@ const values = [
                 }
             }, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 503,
+                lineNumber: 501,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute -top-20 -right-20 w-72 h-72 bg-white/10 rounded-full"
             }, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 509,
+                lineNumber: 507,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute -bottom-16 -left-16 w-56 h-56 bg-white/10 rounded-full"
             }, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 510,
+                lineNumber: 508,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1183,7 +1191,7 @@ const values = [
                                 className: "w-4 h-4 text-white"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 522,
+                                lineNumber: 520,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1191,13 +1199,13 @@ const values = [
                                 children: "Join IAAA"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 523,
+                                lineNumber: 521,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/app/about/page.tsx",
-                        lineNumber: 521,
+                        lineNumber: 519,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1206,14 +1214,14 @@ const values = [
                             "Ready to Join India's",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 526,
+                                lineNumber: 524,
                                 columnNumber: 37
                             }, this),
                             "Aerospace Community?"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/app/about/page.tsx",
-                        lineNumber: 525,
+                        lineNumber: 523,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1221,7 +1229,7 @@ const values = [
                         children: "Become part of the IAAA network and shape the future of aerospace in India."
                     }, void 0, false, {
                         fileName: "[project]/frontend/app/about/page.tsx",
-                        lineNumber: 528,
+                        lineNumber: 526,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1236,13 +1244,13 @@ const values = [
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/about/page.tsx",
-                                        lineNumber: 537,
+                                        lineNumber: 535,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 532,
+                                lineNumber: 530,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1254,31 +1262,31 @@ const values = [
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/about/page.tsx",
-                                        lineNumber: 544,
+                                        lineNumber: 542,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/about/page.tsx",
-                                lineNumber: 539,
+                                lineNumber: 537,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/app/about/page.tsx",
-                        lineNumber: 531,
+                        lineNumber: 529,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 512,
+                lineNumber: 510,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/frontend/app/about/page.tsx",
-        lineNumber: 502,
+        lineNumber: 500,
         columnNumber: 5
     }, this);
 }
@@ -1287,42 +1295,42 @@ function AboutPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(HeroBanner, {}, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 556,
+                lineNumber: 554,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AboutIntro, {}, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 557,
+                lineNumber: 555,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StatsBar, {}, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 558,
+                lineNumber: 556,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(VisionMission, {}, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 559,
+                lineNumber: 557,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(WhatWeDo, {}, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 560,
+                lineNumber: 558,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CoreValues, {}, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 561,
+                lineNumber: 559,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(GalleryStrip, {}, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 562,
+                lineNumber: 560,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AboutCTA, {}, void 0, false, {
                 fileName: "[project]/frontend/app/about/page.tsx",
-                lineNumber: 563,
+                lineNumber: 561,
                 columnNumber: 7
             }, this)
         ]

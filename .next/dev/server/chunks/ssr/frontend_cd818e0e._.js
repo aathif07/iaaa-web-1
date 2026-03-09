@@ -475,40 +475,6 @@ function Hero() {
                     }, void 0, true, {
                         fileName: "[project]/frontend/components/home/hero.tsx",
                         lineNumber: 107,
-                        columnNumber: 3
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: fadeUp(0.82),
-                        className: "mt-10 max-w-5xl mx-auto bg-white/10 border border-white/15 backdrop-blur-md rounded-3xl p-6 text-left shadow-2xl text-white/90",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-lg font-semibold mb-2 text-white",
-                                children: "The Institute of Aeronautics Astronautics and Aviation (IAAA)"
-                            }, void 0, false, {
-                                fileName: "[project]/frontend/components/home/hero.tsx",
-                                lineNumber: 138,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm md:text-base leading-relaxed text-white/85 mb-3",
-                                children: "IAAA is a registered professional association established under the Societies Registration Act, 1860, dedicated to advancing the fields of aeronautics, astronautics, aviation, and emerging aerospace technologies in India."
-                            }, void 0, false, {
-                                fileName: "[project]/frontend/components/home/hero.tsx",
-                                lineNumber: 139,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm md:text-base leading-relaxed text-white/85",
-                                children: "To support its educational, research, outreach, and social initiatives, the association is strengthened by the IAAA Foundation, a charitable entity registered under the Indian Trusts Act, 1882. The Foundation enables philanthropic activities, student development programs, scholarships, STEM outreach, and national capacity-building initiatives in aerospace and aviation."
-                            }, void 0, false, {
-                                fileName: "[project]/frontend/components/home/hero.tsx",
-                                lineNumber: 142,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/frontend/components/home/hero.tsx",
-                        lineNumber: 137,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -524,20 +490,20 @@ function Hero() {
                                 children: "Scroll"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/hero.tsx",
-                                lineNumber: 156,
+                                lineNumber: 145,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                 className: "w-4 h-4 animate-bounce"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/hero.tsx",
-                                lineNumber: 157,
+                                lineNumber: 146,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/components/home/hero.tsx",
-                        lineNumber: 148,
+                        lineNumber: 137,
                         columnNumber: 9
                     }, this)
                 ]
@@ -559,22 +525,22 @@ function Hero() {
                                 visible: textVisible
                             }, stat.label, false, {
                                 fileName: "[project]/frontend/components/home/hero.tsx",
-                                lineNumber: 169,
+                                lineNumber: 158,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/home/hero.tsx",
-                        lineNumber: 167,
+                        lineNumber: 156,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/frontend/components/home/hero.tsx",
-                    lineNumber: 166,
+                    lineNumber: 155,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/frontend/components/home/hero.tsx",
-                lineNumber: 162,
+                lineNumber: 151,
                 columnNumber: 7
             }, this)
         ]
@@ -600,7 +566,7 @@ function StatCard({ icon: Icon, value, suffix, label, index, visible }) {
                 className: "w-5 h-5 text-blue-400 mb-1 group-hover:scale-110 transition-transform duration-200"
             }, void 0, false, {
                 fileName: "[project]/frontend/components/home/hero.tsx",
-                lineNumber: 201,
+                lineNumber: 190,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -611,7 +577,7 @@ function StatCard({ icon: Icon, value, suffix, label, index, visible }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/frontend/components/home/hero.tsx",
-                lineNumber: 202,
+                lineNumber: 191,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -619,13 +585,13 @@ function StatCard({ icon: Icon, value, suffix, label, index, visible }) {
                 children: label
             }, void 0, false, {
                 fileName: "[project]/frontend/components/home/hero.tsx",
-                lineNumber: 205,
+                lineNumber: 194,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/frontend/components/home/hero.tsx",
-        lineNumber: 191,
+        lineNumber: 180,
         columnNumber: 5
     }, this);
 }
@@ -709,6 +675,77 @@ function AboutPreview() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute bottom-6 left-4 right-4 md:left-6 md:right-auto md:w-72 bg-white/95 backdrop-blur-md rounded-2xl px-5 py-4 shadow-xl border border-slate-100",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center gap-2 mb-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex -space-x-2",
+                                                children: [
+                                                    "/placeholder-user.jpg",
+                                                    "/placeholder-user.jpg",
+                                                    "/placeholder-user.jpg"
+                                                ].map((src, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "w-8 h-8 rounded-full border-2 border-white overflow-hidden",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                            src: src,
+                                                            alt: "member",
+                                                            width: 32,
+                                                            height: 32,
+                                                            className: "object-cover"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/frontend/components/home/about-preview.tsx",
+                                                            lineNumber: 58,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, i, false, {
+                                                        fileName: "[project]/frontend/components/home/about-preview.tsx",
+                                                        lineNumber: 57,
+                                                        columnNumber: 21
+                                                    }, this))
+                                            }, void 0, false, {
+                                                fileName: "[project]/frontend/components/home/about-preview.tsx",
+                                                lineNumber: 55,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-xs font-bold text-white bg-blue-600 rounded-full px-2 py-0.5",
+                                                children: "5000+"
+                                            }, void 0, false, {
+                                                fileName: "[project]/frontend/components/home/about-preview.tsx",
+                                                lineNumber: 62,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/frontend/components/home/about-preview.tsx",
+                                        lineNumber: 54,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm font-bold text-slate-800 leading-snug",
+                                        children: "Join our active aerospace community"
+                                    }, void 0, false, {
+                                        fileName: "[project]/frontend/components/home/about-preview.tsx",
+                                        lineNumber: 64,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs text-slate-500 mt-0.5",
+                                        children: "Members across 18 regional chapters"
+                                    }, void 0, false, {
+                                        fileName: "[project]/frontend/components/home/about-preview.tsx",
+                                        lineNumber: 65,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/frontend/components/home/about-preview.tsx",
+                                lineNumber: 52,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute -top-4 -right-4 w-24 h-24 opacity-20 pointer-events-none",
                                 style: {
                                     backgroundImage: "radial-gradient(circle, #3b82f6 1.5px, transparent 1.5px)",
@@ -716,7 +753,7 @@ function AboutPreview() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                lineNumber: 52,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -739,7 +776,7 @@ function AboutPreview() {
                                 children: "About IAAA"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                lineNumber: 68,
+                                lineNumber: 85,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -752,13 +789,13 @@ function AboutPreview() {
                                         children: "Real Aerospace"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                lineNumber: 73,
+                                lineNumber: 90,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -766,7 +803,7 @@ function AboutPreview() {
                                 children: "IAAA enables professional networking and structured knowledge sharing to accelerate growth across the national and international aerospace ecosystem. IAAA serves as a dynamic platform for bridging the gap between industry and academia, fostering a collaborative aerospace community."
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                lineNumber: 79,
+                                lineNumber: 96,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -782,18 +819,18 @@ function AboutPreview() {
                                             className: "w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                            lineNumber: 91,
+                                            lineNumber: 108,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                    lineNumber: 89,
+                                    lineNumber: 106,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                lineNumber: 84,
+                                lineNumber: 101,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -813,12 +850,12 @@ function AboutPreview() {
                                                     className: "w-5 h-5 text-blue-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 126,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 125,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -826,7 +863,7 @@ function AboutPreview() {
                                                 children: feature.title
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 128,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -834,24 +871,24 @@ function AboutPreview() {
                                                 children: feature.description
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                                lineNumber: 112,
+                                                lineNumber: 129,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, feature.title, true, {
                                         fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 115,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/about-preview.tsx",
-                                lineNumber: 96,
+                                lineNumber: 113,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/components/home/about-preview.tsx",
-                        lineNumber: 58,
+                        lineNumber: 75,
                         columnNumber: 11
                     }, this)
                 ]
@@ -2107,8 +2144,20 @@ const partners = [
         category: "International"
     },
     {
-        name: "International Astronomy Union",
-        category: "International"
+        name: "ALTAIR",
+        category: "Industry"
+    },
+    {
+        name: "ANSYS CADFEM",
+        category: "Industry"
+    },
+    {
+        name: "PULLINAM AEROSPACE TECHNOLOGIES",
+        category: "Industry"
+    },
+    {
+        name: "VAANAM ACCELERATOR",
+        category: "Industry"
     },
     {
         name: "AeSI",
@@ -2121,10 +2170,6 @@ const partners = [
     {
         name: "HEMSI",
         category: "Industry"
-    },
-    {
-        name: "Velammal Bodhi Schools",
-        category: "Education"
     }
 ];
 const categoryColors = {
@@ -2166,14 +2211,14 @@ function Partners() {
     const { ref, visible } = useVisible();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "partners",
-        className: "py-20 md:py-28 bg-slate-50",
+        className: "py-16 sm:py-20 md:py-28 bg-slate-50",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 ref: ref,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center max-w-3xl mx-auto mb-14",
+                        className: "text-center max-w-3xl mx-auto mb-10 sm:mb-12 md:mb-14",
                         style: {
                             opacity: visible ? 1 : 0,
                             transform: visible ? "translateY(0)" : "translateY(30px)",
@@ -2181,65 +2226,64 @@ function Partners() {
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 rounded-full mb-6 shadow-sm",
+                                className: "inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white border border-slate-200 rounded-full mb-4 sm:mb-6 shadow-sm",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "w-2 h-2 rounded-full bg-blue-500"
+                                        className: "w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-blue-500"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 70,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-sm font-semibold text-slate-600 uppercase tracking-wider",
+                                        className: "text-xs sm:text-sm font-semibold text-slate-600 uppercase tracking-wider",
                                         children: "Collaborations"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/components/home/partners.tsx",
-                                lineNumber: 67,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-4",
+                                className: "text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 leading-tight mb-3 sm:mb-4 px-4",
                                 children: [
-                                    "Trusted by ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-blue-600",
-                                        children: "Leading"
-                                    }, void 0, false, {
-                                        fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 72,
-                                        columnNumber: 26
-                                    }, this),
+                                    "Partnered organisations for",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 72,
-                                        columnNumber: 72
+                                        lineNumber: 74,
+                                        columnNumber: 42
                                     }, this),
-                                    "Organizations"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-blue-600",
+                                        children: "events, outreach and training programs"
+                                    }, void 0, false, {
+                                        fileName: "[project]/frontend/components/home/partners.tsx",
+                                        lineNumber: 74,
+                                        columnNumber: 48
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/components/home/partners.tsx",
-                                lineNumber: 71,
+                                lineNumber: 73,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-lg text-slate-500",
+                                className: "text-base sm:text-lg text-slate-500",
                                 children: "Bridging Academia, Industry, and Innovation"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/partners.tsx",
-                                lineNumber: 74,
+                                lineNumber: 76,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/components/home/partners.tsx",
-                        lineNumber: 59,
+                        lineNumber: 61,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2263,37 +2307,37 @@ function Partners() {
                                             className: `w-2 h-2 rounded-full flex-shrink-0 ${categoryBadge[partner.category].replace('text-', 'bg-').split(' ')[0]}`
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/components/home/partners.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 102,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: partner.name
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/components/home/partners.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 103,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
                                             className: "w-3 h-3 opacity-0 group-hover:opacity-60 transition-opacity -ml-1"
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/components/home/partners.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 104,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, partner.name, true, {
                                     fileName: "[project]/frontend/components/home/partners.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 92,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/home/partners.tsx",
-                            lineNumber: 88,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/home/partners.tsx",
-                        lineNumber: 80,
+                        lineNumber: 82,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2309,7 +2353,7 @@ function Partners() {
                                         className: `w-2 h-2 rounded-full ${categoryBadge[cat].replace('text-', 'bg-').split(' ')[0]}`
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 120,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2317,18 +2361,18 @@ function Partners() {
                                         children: cat
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 119,
+                                        lineNumber: 121,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, cat, true, {
                                 fileName: "[project]/frontend/components/home/partners.tsx",
-                                lineNumber: 117,
+                                lineNumber: 119,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/home/partners.tsx",
-                        lineNumber: 109,
+                        lineNumber: 111,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2347,34 +2391,34 @@ function Partners() {
                                     className: "w-4 h-4"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/components/home/partners.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 140,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/components/home/partners.tsx",
-                            lineNumber: 133,
+                            lineNumber: 135,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/home/partners.tsx",
-                        lineNumber: 125,
+                        lineNumber: 127,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/frontend/components/home/partners.tsx",
-                lineNumber: 57,
+                lineNumber: 59,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/frontend/components/home/partners.tsx",
-            lineNumber: 56,
+            lineNumber: 58,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/frontend/components/home/partners.tsx",
-        lineNumber: 55,
+        lineNumber: 57,
         columnNumber: 5
     }, this);
 }
