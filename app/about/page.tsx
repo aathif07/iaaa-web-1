@@ -53,7 +53,7 @@ const features = [
   {
     icon: GraduationCap,
     title: "Education Excellence",
-  description: "Programs recognised by NSDC & CTDS-TN; aligned with DGCA standards for aviation safety.",
+    description: "Globally recognized diplomas and certifications aligned with NSDC standards and international aerospace requirements.",
     bg: "bg-amber-50",
     iconBg: "bg-amber-100",
     iconColor: "text-amber-600",
@@ -212,15 +212,13 @@ function AboutIntro() {
             </h2>
 
             <p className="text-slate-600 leading-relaxed text-lg mb-5">
-              The Institute of Aeronautics, Astronautics and Aviation (IAAA) is a registered
-              non-profit trust and association, accredited by the Council for Technical and
-              Vocational Development Science TN (CTDS TN).
+              The Institute of Aeronautics Astronautics and Aviation (IAAA) is a registered professional association established under the Societies Registration Act, 1860, dedicated to advancing the fields of aeronautics, astronautics, aviation, and emerging aerospace technologies in India.
+            </p>
+            <p className="text-slate-500 leading-relaxed mb-5">
+              To support its educational, research, outreach, and social initiatives, the association is strengthened by the IAAA Foundation, a charitable entity registered under the provisions of the Indian Trusts Act, 1882. The Foundation enables the organization to undertake philanthropic activities, student development programs, scholarships, STEM outreach, and national capacity-building initiatives in aerospace and aviation.
             </p>
             <p className="text-slate-500 leading-relaxed mb-8">
-              IAAA bridges academia, industry, and government to provide globally recognized
-              aerospace education, technical training, and professional development — empowering
-              students, faculties, professionals, industry leaders, and policymakers to lead
-              advancements in Aeronautics, Astronautics, Aviation, Drone Technology, and Space Sciences.
+              IAAA bridges academia, industry, and government to provide globally recognized aerospace education, technical training, and professional development — empowering students, faculties, professionals, industry leaders, and policymakers to lead advancements in Aeronautics, Astronautics, Aviation, Drone Technology, and Space Sciences.
             </p>
 
             <Link

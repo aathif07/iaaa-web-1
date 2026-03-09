@@ -48,6 +48,23 @@ export function AboutPreview() {
               <div className="absolute inset-0 bg-linear-to-t from-black/30 via-transparent to-transparent" />
             </div>
 
+            {/* Floating community card — bottom left */}
+            <div className="absolute bottom-6 left-4 right-4 md:left-6 md:right-auto md:w-72 bg-white/95 backdrop-blur-md rounded-2xl px-5 py-4 shadow-xl border border-slate-100">
+              {/* Avatar stack */}
+              <div className="flex items-center gap-2 mb-3">
+                <div className="flex -space-x-2">
+                  {["/placeholder-user.jpg", "/placeholder-user.jpg", "/placeholder-user.jpg"].map((src, i) => (
+                    <div key={i} className="w-8 h-8 rounded-full border-2 border-white overflow-hidden">
+                      <Image src={src} alt="member" width={32} height={32} className="object-cover" />
+                    </div>
+                  ))}
+                </div>
+                <span className="text-xs font-bold text-white bg-blue-600 rounded-full px-2 py-0.5">5000+</span>
+              </div>
+              <p className="text-sm font-bold text-slate-800 leading-snug">Join our active aerospace community</p>
+              <p className="text-xs text-slate-500 mt-0.5">Members across 18 regional chapters</p>
+            </div>
+
             {/* Decorative dot pattern */}
             <div className="absolute -top-4 -right-4 w-24 h-24 opacity-20 pointer-events-none"
               style={{ backgroundImage: "radial-gradient(circle, #3b82f6 1.5px, transparent 1.5px)", backgroundSize: "10px 10px" }}

@@ -12,11 +12,13 @@ const partners = [
   { name: "Airports Authority of India", category: "Government" },
   { name: "ICAO", category: "International" },
   { name: "Space Generation Advisory Council (UN)", category: "International" },
-  { name: "International Astronomy Union", category: "International" },
+  { name: "ALTAIR", category: "Industry" },
+  { name: "ANSYS CADFEM", category: "Industry" },
+  { name: "PULLINAM AEROSPACE TECHNOLOGIES", category: "Industry" },
+  { name: "VAANAM ACCELERATOR", category: "Industry" },
   { name: "AeSI", category: "Industry" },
   { name: "The Institution of Engineers India", category: "Industry" },
   { name: "HEMSI", category: "Industry" },
-  { name: "Velammal Bodhi Schools", category: "Education" },
 ]
 
 const categoryColors: Record<string, string> = {
@@ -69,7 +71,7 @@ export function Partners() {
               <span className="text-sm font-semibold text-slate-600 uppercase tracking-wider">Collaborations</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-4">
-              Trusted by <span className="text-blue-600">Leading</span><br />Organizations
+              Partnered organisations for<br /><span className="text-blue-600">events, outreach and training programs</span>
             </h2>
             <p className="text-lg text-slate-500">
               Bridging Academia, Industry, and Innovation

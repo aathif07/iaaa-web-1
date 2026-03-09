@@ -363,25 +363,6 @@ export default function CollaborationsPage() {
         </div>
       </section>
 
-      {/* ── Partnered Organisations (logos only) ── */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-slate-50 border border-slate-200 rounded-full mb-4">
-              <span className="w-1.5 h-1.5 rounded-full bg-slate-500" />
-              <span className="text-sm font-semibold text-slate-700 uppercase tracking-wider">Partnered organisations for events, outreach and training programs</span>
-            </div>
-          </div>
-          <div className="flex flex-wrap justify-center gap-3">
-            {["ALTAIR","ANSYS CADFEM","PULLINAM AEROSPACE TECHNOLOGIES","VAANAM ACCELERATOR"].map(name=>(
-              <div key={name} className="px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-sm font-semibold text-slate-700">
-                {name}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── CTA ── */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 bg-slate-900" />

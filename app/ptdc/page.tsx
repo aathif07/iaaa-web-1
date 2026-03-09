@@ -11,7 +11,7 @@ const courses=[
   {icon:Wrench,title:"Aircraft Maintenance Technician",subtitle:"One-Year Diploma",description:"Globally accepted certification for MRO & AME careers.",duration:"1 Year",tag:"Diploma",color:"bg-teal-600",light:"bg-teal-50 border-teal-200",tagBg:"bg-teal-100 text-teal-700",featured:false},
   {icon:Award,title:"AMT — Specialization: NDT",subtitle:"One-Year Diploma",description:"Level II Certification (UT, RT, PT, MT, VT) with assured job prospects.",duration:"1 Year",tag:"Diploma",color:"bg-violet-600",light:"bg-violet-50 border-violet-200",tagBg:"bg-violet-100 text-violet-700",featured:false},
   {icon:Cpu,title:"Drone Architecture",subtitle:"One-Year Diploma",description:"Drone Design, Assembly, Flight Operations, and Industry Use Cases.",duration:"1 Year",tag:"Diploma",color:"bg-amber-600",light:"bg-amber-50 border-amber-200",tagBg:"bg-amber-100 text-amber-700",featured:false},
-  {icon:Plane,title:"Short-Term Training & Internships",subtitle:"Multiple Programs",description:"Airline Operations, Drone Tech, AME, NDT, Composites, and Manufacturing.",duration:"2 weeks - 12 months",tag:"Training",color:"bg-rose-600",light:"bg-rose-50 border-rose-200",tagBg:"bg-rose-100 text-rose-700",featured:false},
+  {icon:Plane,title:"Short-Term Training & Internships",subtitle:"Multiple Programs",description:"Airline Operations, Drone Tech, AME, NDT, Composites, and Manufacturing.",duration:"3-6 Months",tag:"Training",color:"bg-rose-600",light:"bg-rose-50 border-rose-200",tagBg:"bg-rose-100 text-rose-700",featured:false},
   {icon:FileCheck,title:"Career-Focused NDT Training",subtitle:"Special Program",description:"Job-ready courses with international Level II certification.",duration:"6 Months",tag:"Training",color:"bg-emerald-600",light:"bg-emerald-50 border-emerald-200",tagBg:"bg-emerald-100 text-emerald-700",featured:false},
 ]
 
@@ -22,7 +22,7 @@ const whyPTDC=[
   {icon:Rocket,title:"Startup Support",desc:"Path from idea to IAAA Startup Forum",color:"text-amber-600",bg:"bg-amber-50"},
 ]
 
-const operations=["PTDCs are hosted at IAAA Regional Hubs or Partner Institutions","Trainers approved by IAAA Academic & Industry Council","Transparent revenue model; supports local training & skill programs","Aligned with DGCA standards; certified by NSDC & CTDS-TN"]
+const operations=["PTDCs are hosted at IAAA Regional Hubs or Partner Institutions","Trainers approved by IAAA Academic & Industry Council","Transparent revenue model; supports local training & skill programs","Aligned with DGCA Standards, NSDC, and International Standards"]
 
 function HeroBanner(){return(
   <section className="relative min-h-[400px] flex items-center overflow-hidden">
@@ -41,7 +41,7 @@ function Intro(){const{ref,v}=useVisible();return(
       <div ref={ref} className="max-w-4xl mx-auto text-center" style={{opacity:v?1:0,transform:v?"translateY(0)":"translateY(30px)",transition:"opacity 0.7s ease,transform 0.7s ease"}}>
         <p className="text-xl text-slate-600 leading-relaxed">The PTDC delivers globally recognized diplomas, technical certifications, and industry internships for students and professionals. Every PTDC student is part of the IAAA Internship Network, gaining real industry experience and eligibility to pitch innovations at the IAAA Startup Forum.</p>
         <div className="flex flex-wrap justify-center gap-6 mt-10">
-          {[{v:"DGCA",l:"Accredited"},{v:"NSDC",l:"Certified"},{v:"6+",l:"Programs"},{v:"1000+",l:"Graduates"}].map((s,i)=>(
+          {[{v:"DGCA",l:"Standards Aligned"},{v:"NSDC",l:"Certified"},{v:"6+",l:"Programs"},{v:"1000+",l:"Graduates"}].map((s,i)=>(
             <div key={i} className="text-center" style={{opacity:v?1:0,transform:v?"translateY(0)":"translateY(20px)",transition:`opacity 0.5s ${0.1+i*0.1}s ease,transform 0.5s ${0.1+i*0.1}s ease`}}>
               <div className="text-3xl font-black text-teal-600">{s.v}</div><div className="text-sm text-slate-500 mt-1">{s.l}</div>
             </div>
@@ -123,10 +123,19 @@ function Internships(){const{ref,v}=useVisible();return(
               </li>
             ))}
           </ul>
-          <p className="mt-5 text-sm text-slate-200 leading-relaxed">
-            IAAA PTDC Annual Diploma Courses are certified by CTDS-TN and NSDC, aligned with DGCA standards and attested by the Government of India / Indian Embassy for global acceptance. Where DGCA is referenced, courses are listed as “Aligned with DGCA Standards” or offered with DGCA module certifications.
-          </p>
         </div>
+      </div>
+    </div>
+  </section>
+)}
+
+function Certification(){const{ref,v}=useVisible();return(
+  <section className="py-16 bg-amber-50">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div ref={ref} className="text-center" style={{opacity:v?1:0,transform:v?"translateY(0)":"translateY(30px)",transition:"opacity 0.7s ease,transform 0.7s ease"}}>
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-amber-100 border border-amber-200 rounded-full mb-6"><FileCheck className="w-4 h-4 text-amber-600"/><span className="text-sm font-semibold text-amber-700 uppercase tracking-wider">Global Recognition</span></div>
+        <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">Internationally Recognized <span className="text-amber-600">Certifications</span></h2>
+        <p className="text-slate-600 text-lg max-w-4xl mx-auto leading-relaxed">IAAA PTDC Annual Diploma Courses are certified by CTDS-TN, NSDC, Government of India attested by Indian Embassy accepted across the globe. Wherever DGCA comes it should as "Aligned with DGCA Standards" not Course accredited by DGCA. Or along with DGCA Module Certification is ok</p>
       </div>
     </div>
   </section>
@@ -146,4 +155,4 @@ function PTDCCTA(){const{ref,v}=useVisible();return(
   </section>
 )}
 
-export default function PTDCPage(){return(<><HeroBanner/><Intro/><Courses/><WhyPTDC/><Internships/><PTDCCTA/></>)}
+export default function PTDCPage(){return(<><HeroBanner/><Intro/><Courses/><WhyPTDC/><Internships/><Certification/><PTDCCTA/></>)}
