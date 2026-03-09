@@ -81,7 +81,7 @@ export function Hero() {
         {/* Badge */}
         <div style={fadeDown(0.1)} className="inline-flex items-center gap-2 px-5 py-2 mb-7 bg-blue-500/15 backdrop-blur-md border border-blue-400/35 rounded-full text-sm font-semibold text-blue-300">
           <span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse shrink-0" />
-          India&apos;s Leading Aerospace Non-Profit Organisation
+          India&apos;s most active aero professional body (Not for profit association and foundation)
         </div>
 
         {/* Headline line 1 */}
@@ -100,8 +100,7 @@ export function Hero() {
 
         {/* Description */}
         <p style={fadeUp(0.54)} className="text-base md:text-lg lg:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed mb-10">
-          IAAA bridges academia, industry &amp; entrepreneurship through globally‑recognized aerospace education and innovation — accredited by{" "}
-          <span className="text-white font-semibold">DGCA, NSDC &amp; CTDS Tamil Nadu</span>.
+          IAAA enables professional networking and structured knowledge sharing to accelerate growth across the national and international aerospace ecosystem. IAAA serves as a dynamic platform for bridging the gap between industry and academia, fostering a collaborative aerospace community.
         </p>
 
         {/* CTA Buttons */}

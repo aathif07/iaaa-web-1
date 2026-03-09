@@ -94,7 +94,7 @@ export function AboutPreview() {
 
             {/* Description */}
             <p className="text-lg text-slate-500 leading-relaxed">
-              IAAA isn&apos;t just an association — it&apos;s a launchpad. We bridge the gap between academia and industry, providing hands-on aerospace education, startup support, and professional development. As a registered non-profit trust, we empower students, engineers, and entrepreneurs to build India&apos;s aerospace future — from school to sky.
+              IAAA enables professional networking and structured knowledge sharing to accelerate growth across the national and international aerospace ecosystem. IAAA serves as a dynamic platform for bridging the gap between industry and academia, fostering a collaborative aerospace community.
             </p>
 
             {/* Read More Button */}
