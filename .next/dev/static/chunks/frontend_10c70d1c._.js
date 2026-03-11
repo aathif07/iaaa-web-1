@@ -167,7 +167,30 @@ function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [openDropdowns, setOpenDropdowns] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [expandedMobileSection, setExpandedMobileSection] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [isVisible, setIsVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
+    const [lastScrollY, setLastScrollY] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Header.useEffect": ()=>{
+            const handleScroll = {
+                "Header.useEffect.handleScroll": ()=>{
+                    const currentScrollY = window.scrollY;
+                    if (currentScrollY > lastScrollY && currentScrollY > 100) {
+                        setIsVisible(false);
+                    } else {
+                        setIsVisible(true);
+                    }
+                    setLastScrollY(currentScrollY);
+                }
+            }["Header.useEffect.handleScroll"];
+            window.addEventListener("scroll", handleScroll);
+            return ({
+                "Header.useEffect": ()=>window.removeEventListener("scroll", handleScroll)
+            })["Header.useEffect"];
+        }
+    }["Header.useEffect"], [
+        lastScrollY
+    ]);
     const isActive = (href)=>{
         if (href === "/") return pathname === "/";
         return pathname.startsWith(href);
@@ -179,8 +202,9 @@ function Header() {
         setExpandedMobileSection(expandedMobileSection === section ? null : section);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "fixed top-0 left-0 right-0 z-50 bg-transparent",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("fixed top-0 left-0 right-0 z-50 transition-all duration-300", isVisible ? "translate-y-0" : "-translate-y-full", "bg-transparent"),
         children: [
+            "			",
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                 className: "mx-auto w-full px-4 sm:px-6 lg:px-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -200,13 +224,13 @@ function Header() {
                                         priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/header.tsx",
-                                        lineNumber: 65,
-                                        columnNumber: 15
+                                        lineNumber: 84,
+                                        columnNumber: 8
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/components/header.tsx",
-                                    lineNumber: 64,
-                                    columnNumber: 13
+                                    lineNumber: 83,
+                                    columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "hidden sm:block",
@@ -216,28 +240,28 @@ function Header() {
                                             children: "IAAA"
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/components/header.tsx",
-                                            lineNumber: 68,
-                                            columnNumber: 15
+                                            lineNumber: 87,
+                                            columnNumber: 8
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "hidden md:inline text-xs sm:text-sm text-white/70 ml-1",
                                             children: "India"
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/components/header.tsx",
-                                            lineNumber: 69,
-                                            columnNumber: 15
+                                            lineNumber: 88,
+                                            columnNumber: 8
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/frontend/components/header.tsx",
-                                    lineNumber: 67,
-                                    columnNumber: 13
+                                    lineNumber: 86,
+                                    columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/components/header.tsx",
-                            lineNumber: 63,
-                            columnNumber: 11
+                            lineNumber: 82,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "hidden lg:flex items-center gap-8",
@@ -253,14 +277,14 @@ function Header() {
                                                     className: "h-4 w-4 transition-transform group-hover:rotate-180"
                                                 }, void 0, false, {
                                                     fileName: "[project]/frontend/components/header.tsx",
-                                                    lineNumber: 82,
-                                                    columnNumber: 19
+                                                    lineNumber: 101,
+                                                    columnNumber: 10
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/frontend/components/header.tsx",
-                                            lineNumber: 77,
-                                            columnNumber: 17
+                                            lineNumber: 96,
+                                            columnNumber: 9
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute top-full left-0 mt-2 w-48 bg-white/95 backdrop-blur-sm border border-white/20 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2",
@@ -270,24 +294,24 @@ function Header() {
                                                     children: item.name
                                                 }, item.name, false, {
                                                     fileName: "[project]/frontend/components/header.tsx",
-                                                    lineNumber: 88,
-                                                    columnNumber: 21
+                                                    lineNumber: 107,
+                                                    columnNumber: 11
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/components/header.tsx",
-                                            lineNumber: 86,
-                                            columnNumber: 17
+                                            lineNumber: 105,
+                                            columnNumber: 9
                                         }, this)
                                     ]
                                 }, section.section, true, {
                                     fileName: "[project]/frontend/components/header.tsx",
-                                    lineNumber: 76,
-                                    columnNumber: 15
+                                    lineNumber: 95,
+                                    columnNumber: 8
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/header.tsx",
-                            lineNumber: 74,
-                            columnNumber: 11
+                            lineNumber: 93,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "hidden lg:block",
@@ -300,18 +324,18 @@ function Header() {
                                     children: "Join IAAA"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/components/header.tsx",
-                                    lineNumber: 109,
-                                    columnNumber: 15
+                                    lineNumber: 128,
+                                    columnNumber: 8
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/header.tsx",
-                                lineNumber: 108,
-                                columnNumber: 13
+                                lineNumber: 127,
+                                columnNumber: 7
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/header.tsx",
-                            lineNumber: 107,
-                            columnNumber: 11
+                            lineNumber: 126,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "button",
@@ -322,30 +346,30 @@ function Header() {
                                 className: "h-5 w-5 text-white"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/header.tsx",
-                                lineNumber: 121,
-                                columnNumber: 15
+                                lineNumber: 140,
+                                columnNumber: 8
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 className: "h-5 w-5 text-white"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/header.tsx",
-                                lineNumber: 123,
-                                columnNumber: 15
+                                lineNumber: 142,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/header.tsx",
-                            lineNumber: 114,
-                            columnNumber: 11
+                            lineNumber: 133,
+                            columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/frontend/components/header.tsx",
-                    lineNumber: 61,
-                    columnNumber: 9
+                    lineNumber: 80,
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/frontend/components/header.tsx",
-                lineNumber: 60,
-                columnNumber: 7
+                lineNumber: 79,
+                columnNumber: 11
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("lg:hidden absolute top-full left-0 right-0 bg-black/40 backdrop-blur-md border-b border-white/10 shadow-lg transition-all duration-300 overflow-hidden", mobileMenuOpen ? "max-h-[80vh] opacity-100 overflow-y-auto" : "max-h-0 opacity-0"),
@@ -363,14 +387,14 @@ function Header() {
                                                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("h-4 w-4 transition-transform", expandedMobileSection === section.section ? "rotate-180" : "")
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/components/header.tsx",
-                                                lineNumber: 144,
-                                                columnNumber: 17
+                                                lineNumber: 163,
+                                                columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/components/header.tsx",
-                                        lineNumber: 139,
-                                        columnNumber: 15
+                                        lineNumber: 158,
+                                        columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("overflow-hidden transition-all duration-200", expandedMobileSection === section.section ? "max-h-96" : "max-h-0"),
@@ -383,24 +407,24 @@ function Header() {
                                                     children: item.name
                                                 }, item.name, false, {
                                                     fileName: "[project]/frontend/components/header.tsx",
-                                                    lineNumber: 159,
-                                                    columnNumber: 21
+                                                    lineNumber: 178,
+                                                    columnNumber: 11
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/frontend/components/header.tsx",
-                                            lineNumber: 157,
-                                            columnNumber: 17
+                                            lineNumber: 176,
+                                            columnNumber: 9
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/header.tsx",
-                                        lineNumber: 151,
-                                        columnNumber: 15
+                                        lineNumber: 170,
+                                        columnNumber: 8
                                     }, this)
                                 ]
                             }, section.section, true, {
                                 fileName: "[project]/frontend/components/header.tsx",
-                                lineNumber: 138,
-                                columnNumber: 13
+                                lineNumber: 157,
+                                columnNumber: 7
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "pt-3 mt-3 border-t border-white/10",
@@ -413,38 +437,38 @@ function Header() {
                                     children: "Join IAAA"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/components/header.tsx",
-                                    lineNumber: 180,
-                                    columnNumber: 15
+                                    lineNumber: 199,
+                                    columnNumber: 8
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/header.tsx",
-                                lineNumber: 179,
-                                columnNumber: 13
+                                lineNumber: 198,
+                                columnNumber: 7
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/header.tsx",
-                            lineNumber: 178,
-                            columnNumber: 11
+                            lineNumber: 197,
+                            columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/frontend/components/header.tsx",
-                    lineNumber: 136,
-                    columnNumber: 9
+                    lineNumber: 155,
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/frontend/components/header.tsx",
-                lineNumber: 130,
-                columnNumber: 7
+                lineNumber: 149,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/frontend/components/header.tsx",
-        lineNumber: 58,
+        lineNumber: 75,
         columnNumber: 5
     }, this);
 }
-_s(Header, "Nln19Gu1hSx/BgiQOIdvd9Hoz2E=", false, function() {
+_s(Header, "vzwYF/ZhHmQKtn15LJ4Kww3OvPg=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
     ];

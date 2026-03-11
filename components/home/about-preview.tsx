@@ -39,7 +39,7 @@ export function AboutPreview() {
             {/* Main Image */}
             <div className="relative rounded-3xl overflow-hidden aspect-4/4.5 shadow-2xl shadow-slate-200">
               <Image
-                src="/aboutimage.jpg"
+                src="/gallery/aboutimage.jpg"
                 alt="IAAA Aerospace Education"
                 fill
                 className="object-cover"
