@@ -1,12 +1,4 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/about/page": "app/about/page.js",
-  "/announcements/page": "app/announcements/page.js",
-  "/clubs/page": "app/clubs/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/events/page": "app/events/page.js",
-  "/membership/page": "app/membership/page.js",
-  "/page": "app/page.js",
-  "/ptdc/page": "app/ptdc/page.js",
-  "/startup-forum/page": "app/startup-forum/page.js"
+  "/page": "app/page.js"
 }
