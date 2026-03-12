@@ -16,7 +16,7 @@ const features = [
     icon: Globe2,
     title: "Nationwide Reach",
     description: "With 18 regional chapters and 150+ partner institutions, IAAA connects learners and professionals across India.",
-  },
+     },
 ]
 
 export function AboutPreview() {
@@ -131,7 +131,6 @@ export function AboutPreview() {
               ))}
             </div>
           </div>
-
         </div>
       </div>
     </section>

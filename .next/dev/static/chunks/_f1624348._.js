@@ -56,6 +56,7 @@ function useVisible(t = 0.12) {
 }
 _s(useVisible, "HWic+ygLxp9iHL6S1AyGyAitUxk=");
 const studentFeatures = [
+    "₹1,000 / year",
     "4–10 certified courses per year",
     "National contests & internships",
     "Workshops and Training Programs",
@@ -66,6 +67,7 @@ const studentFeatures = [
     "Annual certificate and national recognition"
 ];
 const professionalFeatures = [
+    "Volunteer membership (VIAAA)",
     "Network with industry leaders",
     "Mentor student members",
     "Contribute to IAAA's educational and research initiatives",
@@ -74,6 +76,7 @@ const professionalFeatures = [
     "Access to IAAA resources and publications"
 ];
 const institutionalFeatures = [
+    "Minimum 50 to 300 member organizations",
     "Host IAAA Collegiate Clubs",
     "Establish Regional Hubs or PTDC Centres",
     "Enable aerospace programs and FDPs",
@@ -284,43 +287,18 @@ function MembershipPage() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-4xl font-black text-slate-900 mb-3",
-                                        children: "Student Membership"
+                                        children: "ANNUAL MEMBERSHIP (PAID)"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
                                         lineNumber: 46,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-baseline gap-2 mb-5",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-5xl font-black text-blue-600",
-                                                children: "₹1,000"
-                                            }, void 0, false, {
-                                                fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 47,
-                                                columnNumber: 61
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-slate-400",
-                                                children: "/ year"
-                                            }, void 0, false, {
-                                                fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 47,
-                                                columnNumber: 126
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 47,
-                                        columnNumber: 13
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-slate-500 leading-relaxed mb-8",
-                                        children: "Access certified aerospace courses & innovation contests. Apply for internships and startup mentorship via IAAA networks. Compete in IAAA National Innovation Challenge."
+                                        children: "For aspiring aerospace professionals seeking structured learning, certifications, and networking opportunities in the aerospace ecosystem."
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 48,
+                                        lineNumber: 47,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -332,13 +310,13 @@ function MembershipPage() {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 49,
+                                                lineNumber: 48,
                                                 columnNumber: 245
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 48,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -362,14 +340,14 @@ function MembershipPage() {
                                                 className: "w-5 h-5 text-blue-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 52,
+                                                lineNumber: 51,
                                                 columnNumber: 83
                                             }, this),
                                             "What You Get"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 51,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FeatureList, {
@@ -377,13 +355,13 @@ function MembershipPage() {
                                         color: "text-blue-600"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 53,
+                                        lineNumber: 52,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                lineNumber: 51,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -426,14 +404,14 @@ function MembershipPage() {
                                                 className: "w-5 h-5 text-teal-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 64,
+                                                lineNumber: 63,
                                                 columnNumber: 83
                                             }, this),
                                             "Benefits Include"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 63,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FeatureList, {
@@ -441,13 +419,13 @@ function MembershipPage() {
                                         color: "text-teal-600"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 64,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                lineNumber: 63,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -465,7 +443,7 @@ function MembershipPage() {
                                                 className: "w-4 h-4 text-teal-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 68,
+                                                lineNumber: 67,
                                                 columnNumber: 125
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -473,54 +451,29 @@ function MembershipPage() {
                                                 children: "Volunteer Program"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 68,
+                                                lineNumber: 67,
                                                 columnNumber: 171
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 67,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-4xl font-black text-slate-900 mb-3",
-                                        children: "Professional Membership"
+                                        children: "ANNUAL MEMBERSHIP (Unpaid Volunteer Based)"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 69,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-baseline gap-2 mb-5",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-5xl font-black text-teal-600",
-                                                children: "Free"
-                                            }, void 0, false, {
-                                                fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 70,
-                                                columnNumber: 61
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-slate-400",
-                                                children: "Volunteer Member"
-                                            }, void 0, false, {
-                                                fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 70,
-                                                columnNumber: 124
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 68,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-slate-500 leading-relaxed mb-8",
-                                        children: "For practicing engineers, scientists, and professionals who wish to contribute to IAAA's educational and research initiatives. Network with industry and mentor students."
+                                        children: "For practicing engineers, scientists, and professionals who wish to contribute to IAAA's educational and research initiatives. Network with industry leaders and mentor students."
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 69,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -532,35 +485,35 @@ function MembershipPage() {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 72,
+                                                lineNumber: 70,
                                                 columnNumber: 249
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 70,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                lineNumber: 67,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/app/membership/page.tsx",
-                        lineNumber: 62,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/frontend/app/membership/page.tsx",
-                    lineNumber: 61,
+                    lineNumber: 60,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/frontend/app/membership/page.tsx",
-                lineNumber: 60,
+                lineNumber: 59,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -586,7 +539,7 @@ function MembershipPage() {
                                                 className: "w-4 h-4 text-violet-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 81,
                                                 columnNumber: 129
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -594,54 +547,29 @@ function MembershipPage() {
                                                 children: "For Institutions"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 81,
                                                 columnNumber: 176
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-4xl font-black text-slate-900 mb-3",
-                                        children: "Institutional Membership"
+                                        children: "COLLEGIATE / INDUSTRY ANNUAL CLUB MEMBERSHIP"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 84,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-baseline gap-2 mb-5",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-5xl font-black text-violet-600",
-                                                children: "Custom"
-                                            }, void 0, false, {
-                                                fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 85,
-                                                columnNumber: 61
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-slate-400",
-                                                children: "Pricing"
-                                            }, void 0, false, {
-                                                fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 85,
-                                                columnNumber: 128
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 82,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-slate-500 leading-relaxed mb-8",
-                                        children: "For colleges, universities, and schools hosting IAAA Clubs, Regional Hubs, or PTDC Centres — enabling aerospace programs, FDPs, and national recognition."
+                                        children: "For colleges, universities, and schools hosting IAAA Clubs, Regional Hubs, or PTDC Centres — enabling aerospace programs, FDPs, and national recognition. Minimum 50 to 300 member organizations."
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 83,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -653,19 +581,19 @@ function MembershipPage() {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 87,
+                                                lineNumber: 84,
                                                 columnNumber: 258
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                lineNumber: 82,
+                                lineNumber: 80,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -683,14 +611,14 @@ function MembershipPage() {
                                                 className: "w-5 h-5 text-violet-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 90,
+                                                lineNumber: 87,
                                                 columnNumber: 83
                                             }, this),
                                             "Institution Benefits"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 90,
+                                        lineNumber: 87,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FeatureList, {
@@ -698,29 +626,29 @@ function MembershipPage() {
                                         color: "text-violet-600"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 88,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                lineNumber: 89,
+                                lineNumber: 86,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/app/membership/page.tsx",
-                        lineNumber: 81,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/frontend/app/membership/page.tsx",
-                    lineNumber: 80,
+                    lineNumber: 78,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/frontend/app/membership/page.tsx",
-                lineNumber: 79,
+                lineNumber: 77,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -730,7 +658,7 @@ function MembershipPage() {
                         className: "absolute top-0 right-0 w-96 h-96 bg-violet-400/5 rounded-full -translate-y-1/3 translate-x-1/3"
                     }, void 0, false, {
                         fileName: "[project]/frontend/app/membership/page.tsx",
-                        lineNumber: 99,
+                        lineNumber: 96,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -752,7 +680,7 @@ function MembershipPage() {
                                                 className: "w-1.5 h-1.5 rounded-full bg-violet-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 99,
                                                 columnNumber: 124
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -760,13 +688,13 @@ function MembershipPage() {
                                                 children: "Why Join IAAA"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 99,
                                                 columnNumber: 182
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 99,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -778,19 +706,19 @@ function MembershipPage() {
                                                 children: "IAAA?"
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 103,
+                                                lineNumber: 100,
                                                 columnNumber: 79
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 100,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                lineNumber: 101,
+                                lineNumber: 98,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -809,12 +737,12 @@ function MembershipPage() {
                                                     className: `w-7 h-7 ${item.color}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/frontend/app/membership/page.tsx",
-                                                    lineNumber: 108,
+                                                    lineNumber: 105,
                                                     columnNumber: 113
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 105,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -822,7 +750,7 @@ function MembershipPage() {
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 106,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -830,30 +758,30 @@ function MembershipPage() {
                                                 children: item.desc
                                             }, void 0, false, {
                                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 107,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, item.title, true, {
                                         fileName: "[project]/frontend/app/membership/page.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 104,
                                         columnNumber: 13
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/frontend/app/membership/page.tsx",
-                                lineNumber: 105,
+                                lineNumber: 102,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/app/membership/page.tsx",
-                        lineNumber: 100,
+                        lineNumber: 97,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/frontend/app/membership/page.tsx",
-                lineNumber: 98,
+                lineNumber: 95,
                 columnNumber: 5
             }, this)
         ]

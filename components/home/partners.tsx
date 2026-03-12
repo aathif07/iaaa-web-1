@@ -2,40 +2,26 @@
 
 import { useRef, useState, useEffect } from "react"
 import Link from "next/link"
-import { ArrowRight, ExternalLink } from "lucide-react"
+import { ArrowRight } from "lucide-react"
+import { InfiniteSlider } from "@/components/infinite-slider"
 
-const partners = [
-  { name: "IIT Madras", category: "Academia" },
-  { name: "IIT Guwahati", category: "Academia" },
-  { name: "ISRO", category: "Government" },
-  { name: "StartupTN", category: "Government" },
-  { name: "Airports Authority of India", category: "Government" },
-  { name: "ICAO", category: "International" },
-  { name: "Space Generation Advisory Council (UN)", category: "International" },
-  { name: "ALTAIR", category: "Industry" },
-  { name: "ANSYS CADFEM", category: "Industry" },
-  { name: "PULLINAM AEROSPACE TECHNOLOGIES", category: "Industry" },
-  { name: "VAANAM ACCELERATOR", category: "Industry" },
-  { name: "AeSI", category: "Industry" },
-  { name: "The Institution of Engineers India", category: "Industry" },
-  { name: "HEMSI", category: "Industry" },
+// Partner logos - displayed in infinite scroll
+const partnerLogos = [
+  { name: "IIT Madras", initials: "IIT M" },
+  { name: "IIT Guwahati", initials: "IIT G" },
+  { name: "ISRO", initials: "ISRO" },
+  { name: "StartupTN", initials: "STN" },
+  { name: "Airports Authority", initials: "AAI" },
+  { name: "ICAO", initials: "ICAO" },
+  { name: "SGAC", initials: "SGAC" },
+  { name: "ALTAIR", initials: "ALT" },
+  { name: "ANSYS CADFEM", initials: "ANSYS" },
+  { name: "PULLINAM", initials: "PAT" },
+  { name: "VAANAM", initials: "VAANAM" },
+  { name: "AeSI", initials: "AeSI" },
+  { name: "IEI", initials: "IEI" },
+  { name: "HEMSI", initials: "HEMSI" },
 ]
-
-const categoryColors: Record<string, string> = {
-  Academia: "bg-blue-50 border-blue-200 text-blue-700 hover:bg-blue-100 hover:border-blue-400",
-  Government: "bg-green-50 border-green-200 text-green-700 hover:bg-green-100 hover:border-green-400",
-  International: "bg-purple-50 border-purple-200 text-purple-700 hover:bg-purple-100 hover:border-purple-400",
-  Industry: "bg-orange-50 border-orange-200 text-orange-700 hover:bg-orange-100 hover:border-orange-400",
-  Education: "bg-teal-50 border-teal-200 text-teal-700 hover:bg-teal-100 hover:border-teal-400",
-}
-
-const categoryBadge: Record<string, string> = {
-  Academia: "bg-blue-100 text-blue-600",
-  Government: "bg-green-100 text-green-600",
-  International: "bg-purple-100 text-purple-600",
-  Industry: "bg-orange-100 text-orange-600",
-  Education: "bg-teal-100 text-teal-600",
-}
 
 function useVisible(threshold = 0.15) {
   const ref = useRef<HTMLDivElement>(null)
@@ -54,73 +40,55 @@ export function Partners() {
   const { ref, visible } = useVisible()
 
   return (
-    <section id="partners" className="py-16 sm:py-20 md:py-28 bg-slate-50">
+    <section id="partners" className="py-16 sm:py-20 md:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={ref}>
           {/* Header */}
           <div
-            className="text-center max-w-3xl mx-auto mb-10 sm:mb-12 md:mb-14"
+            className="text-center max-w-4xl mx-auto mb-12 sm:mb-16 md:mb-20"
             style={{
               opacity: visible ? 1 : 0,
               transform: visible ? "translateY(0)" : "translateY(30px)",
               transition: "opacity 0.7s cubic-bezier(0.22,1,0.36,1), transform 0.7s cubic-bezier(0.22,1,0.36,1)",
             }}
           >
-            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white border border-slate-200 rounded-full mb-4 sm:mb-6 shadow-sm">
-              <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-blue-500" />
-              <span className="text-xs sm:text-sm font-semibold text-slate-600 uppercase tracking-wider">Collaborations</span>
+            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-50 border border-blue-200 rounded-full mb-4 sm:mb-6 shadow-sm">
+              <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-blue-600" />
+              <span className="text-xs sm:text-sm font-semibold text-blue-600 uppercase tracking-wider">Collaborations</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 leading-tight mb-3 sm:mb-4 px-4">
-              Partnered organisations for<br /><span className="text-blue-600">events, outreach and training programs</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 leading-tight mb-4 sm:mb-6">
+              Organizations Associated with / Supported by IAAA
             </h2>
+            <p className="text-lg sm:text-xl text-slate-600 mb-2">
+              for Events, Outreach, Internship, and Training Programs
+            </p>
             <p className="text-base sm:text-lg text-slate-500">
               Bridging Academia, Industry, and Innovation
             </p>
           </div>
 
-          {/* Partners horizontal scroll row */}
+          {/* Infinite Slider with logos */}
           <div
-            className="mb-10"
+            className="mb-12 py-8 bg-slate-50 rounded-2xl"
             style={{
               opacity: visible ? 1 : 0,
               transform: visible ? "translateY(0)" : "translateY(20px)",
               transition: "opacity 0.7s 0.2s cubic-bezier(0.22,1,0.36,1), transform 0.7s 0.2s cubic-bezier(0.22,1,0.36,1)",
             }}
           >
-            <div className="flex flex-wrap justify-center gap-3">
-              {partners.map((partner, i) => (
+            <InfiniteSlider gap={24} duration={30} durationOnHover={60}>
+              {partnerLogos.map((partner) => (
                 <div
                   key={partner.name}
-                  className={`inline-flex items-center gap-2.5 px-5 py-3 border rounded-xl font-semibold text-sm transition-all cursor-pointer group ${categoryColors[partner.category]}`}
-                  style={{
-                    opacity: visible ? 1 : 0,
-                    transform: visible ? "scale(1)" : "scale(0.9)",
-                    transition: `opacity 0.4s ${0.25 + i * 0.04}s ease, transform 0.4s ${0.25 + i * 0.04}s ease`,
-                  }}
+                  className="flex items-center justify-center px-6 sm:px-8 py-4 border border-slate-200 rounded-xl bg-white hover:shadow-md transition-all shrink-0"
+                  title={partner.name}
                 >
-                  {/* Category dot */}
-                  <span className={`w-2 h-2 rounded-full flex-shrink-0 ${categoryBadge[partner.category].replace('text-', 'bg-').split(' ')[0]}`} />
-                  <span>{partner.name}</span>
-                  <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-60 transition-opacity -ml-1" />
+                  <span className="font-semibold text-slate-700 text-sm sm:text-base whitespace-nowrap">
+                    {partner.initials}
+                  </span>
                 </div>
               ))}
-            </div>
-          </div>
-
-          {/* Category legend */}
-          <div
-            className="flex flex-wrap justify-center gap-4 mb-10"
-            style={{
-              opacity: visible ? 1 : 0,
-              transition: "opacity 0.6s 0.5s ease",
-            }}
-          >
-            {Object.keys(categoryBadge).map((cat) => (
-              <div key={cat} className="flex items-center gap-1.5">
-                <span className={`w-2 h-2 rounded-full ${categoryBadge[cat].replace('text-', 'bg-').split(' ')[0]}`} />
-                <span className="text-xs text-slate-500 font-medium">{cat}</span>
-              </div>
-            ))}
+            </InfiniteSlider>
           </div>
 
           {/* CTA */}
@@ -129,7 +97,7 @@ export function Partners() {
             style={{
               opacity: visible ? 1 : 0,
               transform: visible ? "translateY(0)" : "translateY(20px)",
-              transition: "opacity 0.6s 0.55s ease, transform 0.6s 0.55s ease",
+              transition: "opacity 0.6s 0.4s ease, transform 0.6s 0.4s ease",
             }}
           >
             <Link

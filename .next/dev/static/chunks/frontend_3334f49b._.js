@@ -2245,6 +2245,140 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
+"[project]/frontend/components/infinite-slider.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "InfiniteSlider",
+    ()=>InfiniteSlider
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/lib/utils.ts [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/value/use-motion-value.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$animate$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/animation/animate/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$use$2d$measure$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-use-measure/dist/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+'use client';
+;
+;
+;
+;
+function InfiniteSlider({ children, gap = 16, duration = 25, durationOnHover, direction = 'horizontal', reverse = false, className }) {
+    _s();
+    const [currentDuration, setCurrentDuration] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(duration);
+    const [ref, { width, height }] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$use$2d$measure$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])();
+    const translation = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"])(0);
+    const [isTransitioning, setIsTransitioning] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [key, setKey] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "InfiniteSlider.useEffect": ()=>{
+            let controls;
+            const size = direction === 'horizontal' ? width : height;
+            const contentSize = size + gap;
+            const from = reverse ? -contentSize / 2 : 0;
+            const to = reverse ? 0 : -contentSize / 2;
+            if (isTransitioning) {
+                controls = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$animate$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["animate"])(translation, [
+                    translation.get(),
+                    to
+                ], {
+                    ease: 'linear',
+                    duration: currentDuration * Math.abs((translation.get() - to) / contentSize),
+                    onComplete: {
+                        "InfiniteSlider.useEffect": ()=>{
+                            setIsTransitioning(false);
+                            setKey({
+                                "InfiniteSlider.useEffect": (prevKey)=>prevKey + 1
+                            }["InfiniteSlider.useEffect"]);
+                        }
+                    }["InfiniteSlider.useEffect"]
+                });
+            } else {
+                controls = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$animate$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["animate"])(translation, [
+                    from,
+                    to
+                ], {
+                    ease: 'linear',
+                    duration: currentDuration,
+                    repeat: Infinity,
+                    repeatType: 'loop',
+                    repeatDelay: 0,
+                    onRepeat: {
+                        "InfiniteSlider.useEffect": ()=>{
+                            translation.set(from);
+                        }
+                    }["InfiniteSlider.useEffect"]
+                });
+            }
+            return controls?.stop;
+        }
+    }["InfiniteSlider.useEffect"], [
+        key,
+        translation,
+        currentDuration,
+        width,
+        height,
+        gap,
+        isTransitioning,
+        direction,
+        reverse
+    ]);
+    const hoverProps = durationOnHover ? {
+        onHoverStart: ()=>{
+            setIsTransitioning(true);
+            setCurrentDuration(durationOnHover);
+        },
+        onHoverEnd: ()=>{
+            setIsTransitioning(true);
+            setCurrentDuration(duration);
+        }
+    } : {};
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('overflow-hidden', className),
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            className: "flex w-max",
+            style: {
+                ...direction === 'horizontal' ? {
+                    x: translation
+                } : {
+                    y: translation
+                },
+                gap: `${gap}px`,
+                flexDirection: direction === 'horizontal' ? 'row' : 'column'
+            },
+            ref: ref,
+            ...hoverProps,
+            children: [
+                children,
+                children
+            ]
+        }, void 0, true, {
+            fileName: "[project]/frontend/components/infinite-slider.tsx",
+            lineNumber: 90,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/frontend/components/infinite-slider.tsx",
+        lineNumber: 89,
+        columnNumber: 5
+    }, this);
+}
+_s(InfiniteSlider, "UX/EEmidyeh0RKpJLtWOiKJ690w=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$use$2d$measure$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"]
+    ];
+});
+_c = InfiniteSlider;
+var _c;
+__turbopack_context__.k.register(_c, "InfiniteSlider");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
 "[project]/frontend/components/home/partners.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -2256,85 +2390,73 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-client] (ecmascript) <export default as ArrowRight>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/external-link.js [app-client] (ecmascript) <export default as ExternalLink>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$components$2f$infinite$2d$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/frontend/components/infinite-slider.tsx [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
 ;
-const partners = [
+;
+// Partner logos - displayed in infinite scroll
+const partnerLogos = [
     {
         name: "IIT Madras",
-        category: "Academia"
+        initials: "IIT M"
     },
     {
         name: "IIT Guwahati",
-        category: "Academia"
+        initials: "IIT G"
     },
     {
         name: "ISRO",
-        category: "Government"
+        initials: "ISRO"
     },
     {
         name: "StartupTN",
-        category: "Government"
+        initials: "STN"
     },
     {
-        name: "Airports Authority of India",
-        category: "Government"
+        name: "Airports Authority",
+        initials: "AAI"
     },
     {
         name: "ICAO",
-        category: "International"
+        initials: "ICAO"
     },
     {
-        name: "Space Generation Advisory Council (UN)",
-        category: "International"
+        name: "SGAC",
+        initials: "SGAC"
     },
     {
         name: "ALTAIR",
-        category: "Industry"
+        initials: "ALT"
     },
     {
         name: "ANSYS CADFEM",
-        category: "Industry"
+        initials: "ANSYS"
     },
     {
-        name: "PULLINAM AEROSPACE TECHNOLOGIES",
-        category: "Industry"
+        name: "PULLINAM",
+        initials: "PAT"
     },
     {
-        name: "VAANAM ACCELERATOR",
-        category: "Industry"
+        name: "VAANAM",
+        initials: "VAANAM"
     },
     {
         name: "AeSI",
-        category: "Industry"
+        initials: "AeSI"
     },
     {
-        name: "The Institution of Engineers India",
-        category: "Industry"
+        name: "IEI",
+        initials: "IEI"
     },
     {
         name: "HEMSI",
-        category: "Industry"
+        initials: "HEMSI"
     }
 ];
-const categoryColors = {
-    Academia: "bg-blue-50 border-blue-200 text-blue-700 hover:bg-blue-100 hover:border-blue-400",
-    Government: "bg-green-50 border-green-200 text-green-700 hover:bg-green-100 hover:border-green-400",
-    International: "bg-purple-50 border-purple-200 text-purple-700 hover:bg-purple-100 hover:border-purple-400",
-    Industry: "bg-orange-50 border-orange-200 text-orange-700 hover:bg-orange-100 hover:border-orange-400",
-    Education: "bg-teal-50 border-teal-200 text-teal-700 hover:bg-teal-100 hover:border-teal-400"
-};
-const categoryBadge = {
-    Academia: "bg-blue-100 text-blue-600",
-    Government: "bg-green-100 text-green-600",
-    International: "bg-purple-100 text-purple-600",
-    Industry: "bg-orange-100 text-orange-600",
-    Education: "bg-teal-100 text-teal-600"
-};
 function useVisible(threshold = 0.15) {
     _s();
     const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
@@ -2369,14 +2491,14 @@ function Partners() {
     const { ref, visible } = useVisible();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "partners",
-        className: "py-16 sm:py-20 md:py-28 bg-slate-50",
+        className: "py-16 sm:py-20 md:py-28 bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 ref: ref,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center max-w-3xl mx-auto mb-10 sm:mb-12 md:mb-14",
+                        className: "text-center max-w-4xl mx-auto mb-12 sm:mb-16 md:mb-20",
                         style: {
                             opacity: visible ? 1 : 0,
                             transform: visible ? "translateY(0)" : "translateY(30px)",
@@ -2384,50 +2506,43 @@ function Partners() {
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-white border border-slate-200 rounded-full mb-4 sm:mb-6 shadow-sm",
+                                className: "inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-50 border border-blue-200 rounded-full mb-4 sm:mb-6 shadow-sm",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-blue-500"
+                                        className: "w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-blue-600"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 56,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-xs sm:text-sm font-semibold text-slate-600 uppercase tracking-wider",
+                                        className: "text-xs sm:text-sm font-semibold text-blue-600 uppercase tracking-wider",
                                         children: "Collaborations"
                                     }, void 0, false, {
                                         fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/frontend/components/home/partners.tsx",
-                                lineNumber: 69,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 leading-tight mb-3 sm:mb-4 px-4",
-                                children: [
-                                    "Organizations Associated with / Supported by",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 74,
-                                        columnNumber: 59
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-blue-600",
-                                        children: "IAAA for Events, Outreach, Internship, and Training Programs"
-                                    }, void 0, false, {
-                                        fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 74,
-                                        columnNumber: 65
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 leading-tight mb-4 sm:mb-6",
+                                children: "Organizations Associated with / Supported by IAAA"
+                            }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/partners.tsx",
-                                lineNumber: 73,
+                                lineNumber: 59,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-lg sm:text-xl text-slate-600 mb-2",
+                                children: "for Events, Outreach, Internship, and Training Programs"
+                            }, void 0, false, {
+                                fileName: "[project]/frontend/components/home/partners.tsx",
+                                lineNumber: 62,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2435,102 +2550,50 @@ function Partners() {
                                 children: "Bridging Academia, Industry, and Innovation"
                             }, void 0, false, {
                                 fileName: "[project]/frontend/components/home/partners.tsx",
-                                lineNumber: 76,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/frontend/components/home/partners.tsx",
-                        lineNumber: 61,
+                        lineNumber: 47,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mb-10",
+                        className: "mb-12 py-8 bg-slate-50 rounded-2xl",
                         style: {
                             opacity: visible ? 1 : 0,
                             transform: visible ? "translateY(0)" : "translateY(20px)",
                             transition: "opacity 0.7s 0.2s cubic-bezier(0.22,1,0.36,1), transform 0.7s 0.2s cubic-bezier(0.22,1,0.36,1)"
                         },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-wrap justify-center gap-3",
-                            children: partners.map((partner, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `inline-flex items-center gap-2.5 px-5 py-3 border rounded-xl font-semibold text-sm transition-all cursor-pointer group ${categoryColors[partner.category]}`,
-                                    style: {
-                                        opacity: visible ? 1 : 0,
-                                        transform: visible ? "scale(1)" : "scale(0.9)",
-                                        transition: `opacity 0.4s ${0.25 + i * 0.04}s ease, transform 0.4s ${0.25 + i * 0.04}s ease`
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: `w-2 h-2 rounded-full flex-shrink-0 ${categoryBadge[partner.category].replace('text-', 'bg-').split(' ')[0]}`
-                                        }, void 0, false, {
-                                            fileName: "[project]/frontend/components/home/partners.tsx",
-                                            lineNumber: 102,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: partner.name
-                                        }, void 0, false, {
-                                            fileName: "[project]/frontend/components/home/partners.tsx",
-                                            lineNumber: 103,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
-                                            className: "w-3 h-3 opacity-0 group-hover:opacity-60 transition-opacity -ml-1"
-                                        }, void 0, false, {
-                                            fileName: "[project]/frontend/components/home/partners.tsx",
-                                            lineNumber: 104,
-                                            columnNumber: 19
-                                        }, this)
-                                    ]
-                                }, partner.name, true, {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$frontend$2f$components$2f$infinite$2d$slider$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["InfiniteSlider"], {
+                            gap: 24,
+                            duration: 30,
+                            durationOnHover: 60,
+                            children: partnerLogos.map((partner)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center justify-center px-6 sm:px-8 py-4 border border-slate-200 rounded-xl bg-white hover:shadow-md transition-all shrink-0",
+                                    title: partner.name,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "font-semibold text-slate-700 text-sm sm:text-base whitespace-nowrap",
+                                        children: partner.initials
+                                    }, void 0, false, {
+                                        fileName: "[project]/frontend/components/home/partners.tsx",
+                                        lineNumber: 86,
+                                        columnNumber: 19
+                                    }, this)
+                                }, partner.name, false, {
                                     fileName: "[project]/frontend/components/home/partners.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 81,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/frontend/components/home/partners.tsx",
-                            lineNumber: 90,
+                            lineNumber: 79,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/home/partners.tsx",
-                        lineNumber: 82,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-wrap justify-center gap-4 mb-10",
-                        style: {
-                            opacity: visible ? 1 : 0,
-                            transition: "opacity 0.6s 0.5s ease"
-                        },
-                        children: Object.keys(categoryBadge).map((cat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-1.5",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: `w-2 h-2 rounded-full ${categoryBadge[cat].replace('text-', 'bg-').split(' ')[0]}`
-                                    }, void 0, false, {
-                                        fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 120,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-xs text-slate-500 font-medium",
-                                        children: cat
-                                    }, void 0, false, {
-                                        fileName: "[project]/frontend/components/home/partners.tsx",
-                                        lineNumber: 121,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, cat, true, {
-                                fileName: "[project]/frontend/components/home/partners.tsx",
-                                lineNumber: 119,
-                                columnNumber: 15
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/frontend/components/home/partners.tsx",
-                        lineNumber: 111,
+                        lineNumber: 71,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2538,7 +2601,7 @@ function Partners() {
                         style: {
                             opacity: visible ? 1 : 0,
                             transform: visible ? "translateY(0)" : "translateY(20px)",
-                            transition: "opacity 0.6s 0.55s ease, transform 0.6s 0.55s ease"
+                            transition: "opacity 0.6s 0.4s ease, transform 0.6s 0.4s ease"
                         },
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/collaborations",
@@ -2549,34 +2612,34 @@ function Partners() {
                                     className: "w-4 h-4"
                                 }, void 0, false, {
                                     fileName: "[project]/frontend/components/home/partners.tsx",
-                                    lineNumber: 140,
+                                    lineNumber: 108,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/frontend/components/home/partners.tsx",
-                            lineNumber: 135,
+                            lineNumber: 103,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/frontend/components/home/partners.tsx",
-                        lineNumber: 127,
+                        lineNumber: 95,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/frontend/components/home/partners.tsx",
-                lineNumber: 59,
+                lineNumber: 45,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/frontend/components/home/partners.tsx",
-            lineNumber: 58,
+            lineNumber: 44,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/frontend/components/home/partners.tsx",
-        lineNumber: 57,
+        lineNumber: 43,
         columnNumber: 5
     }, this);
 }
@@ -2881,4 +2944,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=frontend_f331e474._.js.map
+//# sourceMappingURL=frontend_3334f49b._.js.map

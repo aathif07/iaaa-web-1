@@ -7,13 +7,14 @@ import { Check, ArrowRight, Users, Award, Building2, School, MapPin } from "luci
 
 const membershipPlans = [
   {
-    title: "Student",
-    price: "₹1,000",
-    period: "/year",
+    title: "ANNUAL MEMBERSHIP (PAID)",
+    price: "",
+    period: "",
     icon: Users,
     description: "For aspiring aerospace professionals",
     popular: true,
     features: [
+      "₹1,000 / Year",
       "4-10 certified courses per year",
       "National contests & internships",
       "Workshops and training programs",
@@ -22,9 +23,9 @@ const membershipPlans = [
     ]
   },
   {
-    title: "Professional",
-    price: "Free",
-    period: "to join",
+    title: "ANNUAL MEMBERSHIP (Unpaid Volunteer Based)",
+    price: "",
+    period: "",
     icon: Award,
     description: "For engineers and scientists",
     features: [
@@ -36,11 +37,11 @@ const membershipPlans = [
     ]
   },
   {
-    title: "Institution",
-    price: "Custom",
-    period: "pricing",
+    title: "COLLEGIATE / INDUSTRY ANNUAL CLUB MEMBERSHIP",
+    price: "",
+    period: "",
     icon: Building2,
-    description: "For colleges and universities",
+    description: "Minimum 50 to 300 members",
     features: [
       "Host IAAA Collegiate Clubs",
       "Regional Hub opportunities",
@@ -111,15 +112,17 @@ export function Membership() {
                   <plan.icon className={`h-5 w-5 ${plan.popular ? 'text-primary' : 'text-muted-foreground'}`} />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground">{plan.title}</h3>
+                  <h3 className="font-semibold text-foreground text-sm leading-tight">{plan.title}</h3>
                   <p className="text-xs text-muted-foreground">{plan.description}</p>
                 </div>
               </div>
 
-              <div className="flex items-baseline gap-1 mb-4">
-                <span className="text-3xl font-bold text-foreground">{plan.price}</span>
-                <span className="text-sm text-muted-foreground">{plan.period}</span>
-              </div>
+              {(plan.price || plan.period) && (
+                <div className="flex items-baseline gap-1 mb-4">
+                  <span className="text-3xl font-bold text-foreground">{plan.price}</span>
+                  <span className="text-sm text-muted-foreground">{plan.period}</span>
+                </div>
+              )}
 
               <ul className="space-y-2 mb-5">
                 {plan.features.map((feature) => (

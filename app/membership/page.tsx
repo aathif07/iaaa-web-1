@@ -5,9 +5,9 @@ import { User, Briefcase, Building, Check, ArrowRight, GraduationCap, Trophy, Ro
 
 function useVisible(t=0.12){const ref=useRef<HTMLDivElement>(null);const [v,setV]=useState(false);useEffect(()=>{const el=ref.current;if(!el)return;const obs=new IntersectionObserver(([e])=>{if(e.isIntersecting)setV(true)},{threshold:t});obs.observe(el);return()=>obs.disconnect();},[t]);return{ref,v};}
 
-const studentFeatures=["4–10 certified courses per year","National contests & internships","Workshops and Training Programs","Official IAAA Certificate & Career Support","Access certified aerospace courses & innovation contests","Apply for internships and startup mentorship via IAAA networks","Compete in IAAA National Innovation Challenge","Annual certificate and national recognition"]
-const professionalFeatures=["Network with industry leaders","Mentor student members","Contribute to IAAA's educational and research initiatives","Professional recognition and certification","Event participation and speaking opportunities","Access to IAAA resources and publications"]
-const institutionalFeatures=["Host IAAA Collegiate Clubs","Establish Regional Hubs or PTDC Centres","Enable aerospace programs and FDPs","National recognition for institution","Faculty development support","Access to industry partnerships"]
+const studentFeatures=["₹1,000 / year","4–10 certified courses per year","National contests & internships","Workshops and Training Programs","Official IAAA Certificate & Career Support","Access certified aerospace courses & innovation contests","Apply for internships and startup mentorship via IAAA networks","Compete in IAAA National Innovation Challenge","Annual certificate and national recognition"]
+const professionalFeatures=["Volunteer membership (VIAAA)","Network with industry leaders","Mentor student members","Contribute to IAAA's educational and research initiatives","Professional recognition and certification","Event participation and speaking opportunities","Access to IAAA resources and publications"]
+const institutionalFeatures=["Minimum 50 to 300 member organizations","Host IAAA Collegiate Clubs","Establish Regional Hubs or PTDC Centres","Enable aerospace programs and FDPs","National recognition for institution","Faculty development support","Access to industry partnerships"]
 const whyJoin=[{icon:Trophy,title:"Competitions",desc:"National innovation challenges and hackathons",bg:"bg-amber-50",color:"text-amber-600"},{icon:Rocket,title:"Startup Support",desc:"From idea to launch with IASF mentorship",bg:"bg-teal-50",color:"text-teal-600"},{icon:FileCheck,title:"Certifications",desc:"Globally recognized aerospace credentials",bg:"bg-violet-50",color:"text-violet-600"},{icon:Users,title:"Network",desc:"10,000+ members and 80+ industry partners",bg:"bg-rose-50",color:"text-rose-600"}]
 
 function FeatureList({items,color}:{items:string[],color:string}){return(
@@ -43,9 +43,8 @@ export default function MembershipPage(){
         <div ref={s.ref} className="grid lg:grid-cols-2 gap-12 items-center">
           <div style={{opacity:s.v?1:0,transform:s.v?"translateX(0)":"translateX(-40px)",transition:"opacity 0.8s ease,transform 0.8s ease"}}>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-50 border border-blue-200 rounded-full mb-6"><GraduationCap className="w-4 h-4 text-blue-600"/><span className="text-sm font-semibold text-blue-700">Most Popular</span></div>
-            <h2 className="text-4xl font-black text-slate-900 mb-3">Student Membership</h2>
-            <div className="flex items-baseline gap-2 mb-5"><span className="text-5xl font-black text-blue-600">₹1,000</span><span className="text-slate-400">/ year</span></div>
-            <p className="text-slate-500 leading-relaxed mb-8">Access certified aerospace courses & innovation contests. Apply for internships and startup mentorship via IAAA networks. Compete in IAAA National Innovation Challenge.</p>
+            <h2 className="text-4xl font-black text-slate-900 mb-3">ANNUAL MEMBERSHIP (PAID)</h2>
+            <p className="text-slate-500 leading-relaxed mb-8">For aspiring aerospace professionals seeking structured learning, certifications, and networking opportunities in the aerospace ecosystem.</p>
             <Link href="/membership/student-apply" className="inline-flex items-center gap-2 px-7 py-3.5 bg-blue-600 text-white rounded-full font-bold text-sm hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200">Join as Student Member<ArrowRight className="w-4 h-4"/></Link>
           </div>
           <div className="bg-blue-50 border border-blue-100 rounded-2xl p-8" style={{opacity:s.v?1:0,transform:s.v?"translateX(0)":"translateX(40px)",transition:"opacity 0.8s 0.15s ease,transform 0.8s 0.15s ease"}}>
@@ -66,9 +65,8 @@ export default function MembershipPage(){
           </div>
           <div className="order-1 lg:order-2" style={{opacity:p.v?1:0,transform:p.v?"translateX(0)":"translateX(40px)",transition:"opacity 0.8s 0.15s ease,transform 0.8s 0.15s ease"}}>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-teal-50 border border-teal-200 rounded-full mb-6"><Briefcase className="w-4 h-4 text-teal-600"/><span className="text-sm font-semibold text-teal-700">Volunteer Program</span></div>
-            <h2 className="text-4xl font-black text-slate-900 mb-3">Professional Membership</h2>
-            <div className="flex items-baseline gap-2 mb-5"><span className="text-5xl font-black text-teal-600">Free</span><span className="text-slate-400">Volunteer Member</span></div>
-            <p className="text-slate-500 leading-relaxed mb-8">For practicing engineers, scientists, and professionals who wish to contribute to IAAA&apos;s educational and research initiatives. Network with industry and mentor students.</p>
+            <h2 className="text-4xl font-black text-slate-900 mb-3">ANNUAL MEMBERSHIP (Unpaid Volunteer Based)</h2>
+            <p className="text-slate-500 leading-relaxed mb-8">For practicing engineers, scientists, and professionals who wish to contribute to IAAA&apos;s educational and research initiatives. Network with industry leaders and mentor students.</p>
             <Link href="/membership/professional-apply" className="inline-flex items-center gap-2 px-7 py-3.5 bg-teal-600 text-white rounded-full font-bold text-sm hover:bg-teal-700 transition-colors shadow-lg shadow-teal-200">Apply as Professional<ArrowRight className="w-4 h-4"/></Link>
           </div>
         </div>
@@ -81,9 +79,8 @@ export default function MembershipPage(){
         <div ref={ins.ref} className="grid lg:grid-cols-2 gap-12 items-center">
           <div style={{opacity:ins.v?1:0,transform:ins.v?"translateX(0)":"translateX(-40px)",transition:"opacity 0.8s ease,transform 0.8s ease"}}>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-violet-50 border border-violet-200 rounded-full mb-6"><Building className="w-4 h-4 text-violet-600"/><span className="text-sm font-semibold text-violet-700">For Institutions</span></div>
-            <h2 className="text-4xl font-black text-slate-900 mb-3">Institutional Membership</h2>
-            <div className="flex items-baseline gap-2 mb-5"><span className="text-5xl font-black text-violet-600">Custom</span><span className="text-slate-400">Pricing</span></div>
-            <p className="text-slate-500 leading-relaxed mb-8">For colleges, universities, and schools hosting IAAA Clubs, Regional Hubs, or PTDC Centres — enabling aerospace programs, FDPs, and national recognition.</p>
+            <h2 className="text-4xl font-black text-slate-900 mb-3">COLLEGIATE / INDUSTRY ANNUAL CLUB MEMBERSHIP</h2>
+            <p className="text-slate-500 leading-relaxed mb-8">For colleges, universities, and schools hosting IAAA Clubs, Regional Hubs, or PTDC Centres — enabling aerospace programs, FDPs, and national recognition. Minimum 50 to 300 member organizations.</p>
             <Link href="/membership/institution-apply" className="inline-flex items-center gap-2 px-7 py-3.5 bg-violet-600 text-white rounded-full font-bold text-sm hover:bg-violet-700 transition-colors shadow-lg shadow-violet-200">Register Your Institution<ArrowRight className="w-4 h-4"/></Link>
           </div>
           <div className="bg-violet-50 border border-violet-100 rounded-2xl p-8" style={{opacity:ins.v?1:0,transform:ins.v?"translateX(0)":"translateX(40px)",transition:"opacity 0.8s 0.15s ease,transform 0.8s 0.15s ease"}}>
