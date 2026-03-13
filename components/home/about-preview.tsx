@@ -36,30 +36,35 @@ export function AboutPreview() {
               transition: "opacity 0.9s cubic-bezier(0.22,1,0.36,1), transform 0.9s cubic-bezier(0.22,1,0.36,1)",
             }}
           >
+            {/* Background gradient decoration */}
+            <div className="absolute -top-8 -left-8 w-48 h-48 bg-gradient-to-br from-blue-200/30 via-purple-200/20 to-transparent rounded-full blur-3xl" />
+            <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-gradient-to-tl from-blue-100/30 to-transparent rounded-full blur-3xl" />
+
             {/* Main Image */}
-            <div className="relative rounded-3xl overflow-hidden aspect-4/4.5 shadow-2xl shadow-slate-200">
+            <div className="relative rounded-3xl overflow-hidden aspect-4/4.5 shadow-2xl shadow-slate-300 bg-gradient-to-br from-slate-100 to-slate-200 border border-slate-100 group hover:shadow-3xl transition-shadow duration-500">
               <Image
                 src="/aboutimage.jpg"
                 alt="IAAA Aerospace Education"
                 fill
-                className="object-cover"
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                priority
               />
-              {/* subtle dark bottom gradient */}
-              <div className="absolute inset-0 bg-linear-to-t from-black/30 via-transparent to-transparent" />
+              {/* Dark gradient overlay for depth */}
+              <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent" />
             </div>
 
             {/* Floating community card — bottom left */}
-            <div className="absolute bottom-6 left-4 right-4 md:left-6 md:right-auto md:w-72 bg-white/95 backdrop-blur-md rounded-2xl px-5 py-4 shadow-xl border border-slate-100">
+            <div className="absolute bottom-6 left-4 right-4 md:left-6 md:right-auto md:w-72 bg-white/98 backdrop-blur-xl rounded-2xl px-5 py-4 shadow-2xl border border-white/40 hover:shadow-3xl transition-shadow duration-300">
               {/* Avatar stack */}
               <div className="flex items-center gap-2 mb-3">
                 <div className="flex -space-x-2">
                   {["/placeholder-user.jpg", "/placeholder-user.jpg", "/placeholder-user.jpg"].map((src, i) => (
-                    <div key={i} className="w-8 h-8 rounded-full border-2 border-white overflow-hidden">
+                    <div key={i} className="w-8 h-8 rounded-full border-2 border-white overflow-hidden shadow-md">
                       <Image src={src} alt="member" width={32} height={32} className="object-cover" />
                     </div>
                   ))}
                 </div>
-                <span className="text-xs font-bold text-white bg-blue-600 rounded-full px-2 py-0.5">5000+</span>
+                <span className="text-xs font-bold text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-full px-2.5 py-1 shadow-md">5000+</span>
               </div>
               <p className="text-sm font-bold text-slate-800 leading-snug">Join our active aerospace community</p>
               <p className="text-xs text-slate-500 mt-0.5">Members across 18 regional chapters</p>
@@ -69,6 +74,9 @@ export function AboutPreview() {
             <div className="absolute -top-4 -right-4 w-24 h-24 opacity-20 pointer-events-none"
               style={{ backgroundImage: "radial-gradient(circle, #3b82f6 1.5px, transparent 1.5px)", backgroundSize: "10px 10px" }}
             />
+            
+            {/* Additional accent line decoration */}
+            <div className="absolute -left-6 top-1/2 w-12 h-1 bg-gradient-to-r from-blue-500 to-transparent rounded-full opacity-60" />
           </div>
 
           {/* ── Right: Text Content ── */}

@@ -80,12 +80,11 @@ export function Header() {
 				<div className="flex h-16 sm:h-18 lg:h-20 items-center justify-between">
 					{/* Logo - Left Side */}
 					<Link href="/" className="flex items-center gap-2 sm:gap-3 shrink-0">
-						<div className="relative w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14">
+						<div className="relative w-12 sm:w-16 lg:w-20 h-12 sm:h-16 lg:h-20">
 							<Image src="/logo.png" alt="IAAA Logo" fill className="object-contain" priority />
 						</div>
-						<div className="hidden sm:block">
+						<div className="hidden lg:block">
 							<span className="text-lg sm:text-xl font-bold text-white">IAAA</span>
-							<span className="hidden md:inline text-xs sm:text-sm text-white/70 ml-1">India</span>
 						</div>
 					</Link>
 
