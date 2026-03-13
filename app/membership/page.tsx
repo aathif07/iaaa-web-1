@@ -8,7 +8,6 @@ function useVisible(t=0.12){const ref=useRef<HTMLDivElement>(null);const [v,setV
 const studentFeatures=["₹1,000 / year","4–10 certified courses per year","National contests & internships","Workshops and Training Programs","Official IAAA Certificate & Career Support","Access certified aerospace courses & innovation contests","Apply for internships and startup mentorship via IAAA networks","Compete in IAAA National Innovation Challenge","Annual certificate and national recognition"]
 const professionalFeatures=["Volunteer membership (VIAAA)","Network with industry leaders","Mentor student members","Contribute to IAAA's educational and research initiatives","Professional recognition and certification","Event participation and speaking opportunities","Access to IAAA resources and publications"]
 const institutionalFeatures=["Minimum 50 to 300 member organizations","Host IAAA Collegiate Clubs","Establish Regional Hubs or PTDC Centres","Enable aerospace programs and FDPs","National recognition for institution","Faculty development support","Access to industry partnerships"]
-const whyJoin=[{icon:Trophy,title:"Competitions",desc:"National innovation challenges and hackathons",bg:"bg-amber-50",color:"text-amber-600"},{icon:Rocket,title:"Startup Support",desc:"From idea to launch with IASF mentorship",bg:"bg-teal-50",color:"text-teal-600"},{icon:FileCheck,title:"Certifications",desc:"Globally recognized aerospace credentials",bg:"bg-violet-50",color:"text-violet-600"},{icon:Users,title:"Network",desc:"10,000+ members and 80+ industry partners",bg:"bg-rose-50",color:"text-rose-600"}]
 
 function FeatureList({items,color}:{items:string[],color:string}){return(
   <ul className="space-y-3">
@@ -22,7 +21,7 @@ function FeatureList({items,color}:{items:string[],color:string}){return(
 )}
 
 export default function MembershipPage(){
-  const h=useVisible();const s=useVisible();const p=useVisible();const ins=useVisible();const w=useVisible();
+  const h=useVisible();const s=useVisible();const p=useVisible();const ins=useVisible();
   return(
   <>
     {/* Hero */}
@@ -91,24 +90,5 @@ export default function MembershipPage(){
       </div>
     </section>
 
-    {/* Why Join */}
-    <section className="py-20 bg-slate-900 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-96 h-96 bg-violet-400/5 rounded-full -translate-y-1/3 translate-x-1/3"/>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div ref={w.ref} className="text-center mx-auto mb-14" style={{opacity:w.v?1:0,transform:w.v?"translateY(0)":"translateY(30px)",transition:"opacity 0.7s ease,transform 0.7s ease"}}>
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 border border-white/20 rounded-full mb-5"><span className="w-1.5 h-1.5 rounded-full bg-violet-400"/><span className="text-sm font-semibold text-violet-300 uppercase tracking-wider">Why Join IAAA</span></div>
-          <h2 className="text-4xl md:text-5xl font-black text-white">Why Join <span className="text-violet-400">IAAA?</span></h2>
-        </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {whyJoin.map((item,i)=>(
-            <div key={item.title} className="bg-white/5 border border-white/10 rounded-2xl p-7 hover:bg-white/10 hover:border-white/20 transition-all text-center" style={{opacity:w.v?1:0,transform:w.v?"translateY(0)":"translateY(30px)",transition:`opacity 0.5s ${0.1+i*0.1}s ease,transform 0.5s ${0.1+i*0.1}s ease`}}>
-              <div className={`w-14 h-14 rounded-2xl ${item.bg} flex items-center justify-center mx-auto mb-4`}><item.icon className={`w-7 h-7 ${item.color}`}/></div>
-              <h3 className="font-bold text-white mb-2">{item.title}</h3>
-              <p className="text-sm text-slate-400 leading-relaxed">{item.desc}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
   </>
 )}
