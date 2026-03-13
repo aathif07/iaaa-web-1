@@ -111,13 +111,5 @@ export default function EventsPage(){
       </div>
     </section>
 
-    <section className="py-20 bg-linear-to-r from-amber-500 to-orange-500 relative overflow-hidden">
-      <div className="absolute inset-0 opacity-10" style={{backgroundImage:"linear-gradient(rgba(255,255,255,0.2) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.2) 1px,transparent 1px)",backgroundSize:"50px 50px"}}/>
-      <div className="relative z-10 mx-auto px-4 text-center">
-        <h2 className="text-4xl font-black text-white mb-4">Want to Host an IAAA Event?</h2>
-        <p className="text-white/80 text-lg mb-8">Partner with IAAA to host workshops, competitions, or conferences at your institution.</p>
-        <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-amber-600 rounded-full font-bold text-sm hover:bg-amber-50 transition-colors shadow-xl">Contact Us<ArrowRight className="w-4 h-4"/></Link>
-      </div>
-    </section>
   </>
 )}

@@ -79,17 +79,5 @@ export default function AnnouncementsPage(){
       </div>
     </section>
 
-    <section className="py-20 bg-slate-900 relative overflow-hidden">
-      <div className="absolute inset-0 opacity-5" style={{backgroundImage:"linear-gradient(rgba(255,255,255,0.2) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.2) 1px,transparent 1px)",backgroundSize:"40px 40px"}}/>
-      <div ref={news.ref} className="relative z-10 mx-auto px-4 text-center" style={{opacity:news.v?1:0,transform:news.v?"translateY(0)":"translateY(30px)",transition:"opacity 0.7s ease,transform 0.7s ease"}}>
-        <div className="w-14 h-14 rounded-2xl bg-amber-400/20 border border-amber-400/30 flex items-center justify-center mx-auto mb-6"><Bell className="w-7 h-7 text-amber-400"/></div>
-        <h2 className="text-4xl font-black text-white mb-3">Stay in the Loop</h2>
-        <p className="text-white/60 text-lg mb-8">Get IAAA updates on admissions, events, and opportunities delivered to your inbox.</p>
-        <div className="flex gap-3 max-w-md mx-auto">
-          <input type="email" placeholder="your@email.com" className="flex-1 px-4 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder:text-white/40 focus:outline-none focus:border-amber-400 text-sm"/>
-          <button className="px-5 py-3 bg-amber-500 text-white rounded-full font-bold text-sm hover:bg-amber-600 transition-colors flex-shrink-0">Subscribe</button>
-        </div>
-      </div>
-    </section>
   </>
 )}

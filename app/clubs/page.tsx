@@ -116,17 +116,5 @@ export default function ClubsPage(){
         </div>
       </div>
     </section>
-
-    <section className="py-20 bg-linear-to-r from-orange-500 to-amber-500 relative overflow-hidden">
-      <div className="absolute inset-0 opacity-10" style={{backgroundImage:"linear-gradient(rgba(255,255,255,0.2) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.2) 1px,transparent 1px)",backgroundSize:"50px 50px"}}/>
-      <div ref={cta.ref} className="relative z-10 mx-auto px-4 text-center" style={{opacity:cta.v?1:0,transform:cta.v?"translateY(0)":"translateY(30px)",transition:"opacity 0.7s ease,transform 0.7s ease"}}>
-        <h2 className="text-4xl font-black text-white mb-4">Start an IAAA Club at Your Institution</h2>
-        <p className="text-white/80 text-lg mb-8">Join the growing network of IAAA-affiliated clubs driving aerospace education across India.</p>
-        <div className="flex flex-wrap justify-center gap-4">
-          <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-orange-600 rounded-full font-bold text-sm hover:bg-orange-50 transition-colors shadow-xl">Apply Now<ArrowRight className="w-4 h-4"/></Link>
-          <Link href="/membership" className="inline-flex items-center gap-2 px-7 py-3.5 border-2 border-white text-white rounded-full font-bold text-sm hover:bg-white/10 transition-colors">View Membership</Link>
-        </div>
-      </div>
-    </section>
   </>
 )}

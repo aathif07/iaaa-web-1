@@ -147,12 +147,8 @@ function PTDCCTA(){const{ref,v}=useVisible();return(
     <div ref={ref} className="relative z-10 mx-auto px-4 text-center" style={{opacity:v?1:0,transform:v?"translateY(0)":"translateY(30px)",transition:"opacity 0.7s ease,transform 0.7s ease"}}>
       <h2 className="text-4xl md:text-5xl font-black text-white mb-5">Ready to Start Your<br/><span className="text-teal-200">Aerospace Career?</span></h2>
       <p className="text-white/80 text-lg mb-8">Join PTDC and get access to world-class training, industry internships, and career support.</p>
-      <div className="flex flex-wrap justify-center gap-4">
-        <Link href="/membership" className="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-teal-700 rounded-full font-bold text-sm hover:bg-teal-50 transition-colors shadow-xl">Enroll Now<ArrowRight className="w-4 h-4"/></Link>
-        <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/15 border border-white/30 text-white rounded-full font-semibold text-sm hover:bg-white/25 transition-colors">Host a PTDC Centre<ArrowRight className="w-4 h-4"/></Link>
-      </div>
     </div>
   </section>
 )}
 
-export default function PTDCPage(){return(<><HeroBanner/><Intro/><Courses/><WhyPTDC/><Internships/><Certification/><PTDCCTA/></>)}
+export default function PTDCPage(){return(<><HeroBanner/><Intro/><Courses/><WhyPTDC/><Internships/><Certification/></>)}
