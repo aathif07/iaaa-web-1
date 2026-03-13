@@ -220,14 +220,6 @@ function AboutIntro() {
             <p className="text-slate-500 leading-relaxed mb-8">
               IAAA bridges academia, industry, and government to provide globally recognized aerospace education, technical training, and professional development — empowering students, faculties, professionals, industry leaders, and policymakers to lead advancements in Aeronautics, Astronautics, Aviation, Drone Technology, and Space Sciences.
             </p>
-
-            <Link
-              href="/leadership"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500 text-white rounded-full font-semibold text-sm hover:bg-amber-600 transition-colors shadow-lg shadow-amber-200"
-            >
-              Meet Our Council
-              <ArrowRight className="w-4 h-4" />
-            </Link>
           </div>
         </div>
       </div>

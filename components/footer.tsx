@@ -21,7 +21,6 @@ const footerLinks = {
   ],
   quickLinks: [
     { label: "About Us", href: "/about" },
-    { label: "Leadership", href: "/leadership" },
     { label: "Startup Forum", href: "/startup-forum" },
     { label: "Events", href: "/events" },
     { label: "Gallery", href: "/gallery" },

@@ -15,7 +15,6 @@ export const navigation = {
     { name: 'Events', href: '/events' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Announcements', href: '/announcements' },
-    { name: 'Leadership', href: '/leadership' },
   ],
   org: [
     { name: 'Collaborations', href: '/collaborations' },
@@ -27,7 +26,6 @@ export const navigation = {
 export const allPages = [
   { path: '/', title: 'Home', description: 'Institute of Aeronautics, Astronautics and Aviation' },
   { path: '/about', title: 'About IAAA', description: 'Learn about our mission and vision' },
-  { path: '/leadership', title: 'Leadership', description: 'Meet our leadership team' },
   { path: '/membership', title: 'Membership', description: 'Become a member' },
   { path: '/clubs', title: 'Clubs & Hubs', description: 'Join our clubs and communities' },
   { path: '/ptdc', title: 'PTDC Programs', description: 'Professional training and development' },
