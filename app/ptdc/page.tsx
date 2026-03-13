@@ -66,8 +66,8 @@ function Courses(){const{ref,v}=useVisible();return(
             <div className={`h-2 ${c.color}`}/>
             <div className="p-6">
               {c.featured&&<div className="inline-flex items-center gap-1 px-2.5 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold mb-4"><Star className="w-3 h-3"/>Featured Program</div>}
-              <div className="flex items-start justify-between mb-4">
-                <div className={`w-12 h-12 rounded-xl ${c.color} bg-opacity-10 flex items-center justify-center`} style={{background:`${c.color.replace('bg-','').replace('-600','')}10`}}><c.icon className={`w-6 h-6 ${c.color.replace('bg-','text-')}`}/></div>
+              <div className="flex items-start justify-between mb-6">
+                <div className={`w-14 h-14 rounded-xl ${c.color} flex items-center justify-center flex-shrink-0`}><c.icon className="w-8 h-8 text-white"/></div>
                 <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${c.tagBg}`}>{c.tag}</span>
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-1">{c.title}</h3>
