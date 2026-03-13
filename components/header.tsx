@@ -83,9 +83,6 @@ export function Header() {
 						<div className="relative w-12 sm:w-16 lg:w-20 h-12 sm:h-16 lg:h-20">
 							<Image src="/logo.png" alt="IAAA Logo" fill className="object-contain" priority />
 						</div>
-						<div className="hidden lg:block">
-							<span className="text-lg sm:text-xl font-bold text-white">IAAA</span>
-						</div>
 					</Link>
 
 					{/* Desktop Navigation - 3 Sections with Dropdowns (Center) */}

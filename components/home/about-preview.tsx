@@ -27,9 +27,9 @@ export function AboutPreview() {
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid lg:grid-cols-2 gap-10 xl:gap-16 items-center">
 
-          {/* ── Left: Image with floating card ── */}
+          {/* ── Left: Image ── */}
           <div
-            className="relative"
+            className="relative order-1"
             style={{
               opacity: isVisible ? 1 : 0,
               transform: isVisible ? "translateX(0)" : "translateX(-40px)",
@@ -41,33 +41,17 @@ export function AboutPreview() {
             <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-gradient-to-tl from-blue-100/30 to-transparent rounded-full blur-3xl" />
 
             {/* Main Image */}
-            <div className="relative rounded-3xl overflow-hidden aspect-4/4.5 shadow-2xl shadow-slate-300 bg-gradient-to-br from-slate-100 to-slate-200 border border-slate-100 group hover:shadow-3xl transition-shadow duration-500">
+            <div className="relative rounded-3xl overflow-hidden aspect-square sm:aspect-4/5 shadow-2xl shadow-slate-300 bg-slate-100 border border-slate-100 group hover:shadow-3xl transition-shadow duration-500">
               <Image
                 src="/aboutimage.jpg"
                 alt="IAAA Aerospace Education"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
               />
-              {/* Dark gradient overlay for depth */}
-              <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent" />
-            </div>
-
-            {/* Floating community card — bottom left */}
-            <div className="absolute bottom-6 left-4 right-4 md:left-6 md:right-auto md:w-72 bg-white/98 backdrop-blur-xl rounded-2xl px-5 py-4 shadow-2xl border border-white/40 hover:shadow-3xl transition-shadow duration-300">
-              {/* Avatar stack */}
-              <div className="flex items-center gap-2 mb-3">
-                <div className="flex -space-x-2">
-                  {["/placeholder-user.jpg", "/placeholder-user.jpg", "/placeholder-user.jpg"].map((src, i) => (
-                    <div key={i} className="w-8 h-8 rounded-full border-2 border-white overflow-hidden shadow-md">
-                      <Image src={src} alt="member" width={32} height={32} className="object-cover" />
-                    </div>
-                  ))}
-                </div>
-                <span className="text-xs font-bold text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-full px-2.5 py-1 shadow-md">5000+</span>
-              </div>
-              <p className="text-sm font-bold text-slate-800 leading-snug">Join our active aerospace community</p>
-              <p className="text-xs text-slate-500 mt-0.5">Members across 18 regional chapters</p>
+              {/* Subtle overlay */}
+              <div className="absolute inset-0 bg-linear-to-t from-black/10 via-transparent to-transparent" />
             </div>
 
             {/* Decorative dot pattern */}
@@ -81,7 +65,7 @@ export function AboutPreview() {
 
           {/* ── Right: Text Content ── */}
           <div
-            className="space-y-7"
+            className="space-y-7 order-2"
             style={{
               opacity: isVisible ? 1 : 0,
               transform: isVisible ? "translateX(0)" : "translateX(40px)",
