@@ -10,7 +10,7 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 const features = [
   {
     icon: ShieldCheck,
-    title: "Accreditation & Trust",
+    title: "Registration and Accreditation",
     description: "IAAA-PTDC programs are recognised by NSDC & CTDS-TN ensuring every credential you earn carries real-world value.",
   },
   {
