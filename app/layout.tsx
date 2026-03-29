@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   generator: 'iaaaindia.com',
   icons: {
     icon: [
-      { url: '/favicon-v2.png', type: 'image/png', sizes: '32x32' },
-      { url: '/favicon-v2.png', type: 'image/png', sizes: '16x16' },
+      { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon.png', type: 'image/png', sizes: '16x16' },
     ],
-    shortcut: '/favicon-v2.png',
-    apple: '/favicon-v2.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   },
 }
 
