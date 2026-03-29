@@ -39,9 +39,9 @@ const programs = [
   },
   {
     icon: Clock,
-    title: "NDT Career Fast-Track",
-    duration: "1 Month",
-    description: "Job-ready with international Level II certification."
+    title: "Career Upscale - Training",
+    duration: "Special Program",
+    description: "For industry professionals, practicing engineers and faculty members. Duration – Depends on training needs."
   }
 ]
 
