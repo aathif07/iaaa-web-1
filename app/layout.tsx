@@ -11,25 +11,11 @@ export const metadata: Metadata = {
   title: 'IAAA | Institute of Aeronautics, Astronautics and Aviation',
   description: 'A national non-profit professional body shaping India\'s aerospace and aviation ecosystem. Building India\'s next generation of aerospace leaders through education, innovation, and collaboration.',
   generator: 'iaaaindia.com',
-  icons: [
-    {
-      rel: 'icon',
-      url: '/favicon.png',
-      sizes: '32x32',
-      type: 'image/png',
-    },
-    {
-      rel: 'icon',
-      url: '/favicon.png',
-      sizes: '16x16',
-      type: 'image/png',
-    },
-    {
-      rel: 'apple-touch-icon',
-      url: '/favicon.png',
-      sizes: '180x180',
-    },
-  ],
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
 }
 
 export const viewport: Viewport = {
