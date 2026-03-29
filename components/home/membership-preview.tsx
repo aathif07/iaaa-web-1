@@ -15,7 +15,7 @@ const memberships = [
     features: ["₹1,000 / year","4-10 certified courses per year","National contests & internships","Workshops and training programs","Official IAAA certificate","Career support & mentorship"],
     cta: "Join as Student",
     href: "/membership#student",
-    highlight: true,
+    highlight: false,
   },
   {
     icon: Briefcase,
