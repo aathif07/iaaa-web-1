@@ -10,7 +10,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: '--font-space
 export const metadata: Metadata = {
   title: 'IAAA | Institute of Aeronautics, Astronautics and Aviation',
   description: 'A national non-profit professional body shaping India\'s aerospace and aviation ecosystem. Building India\'s next generation of aerospace leaders through education, innovation, and collaboration.',
-  generator: 'v0.app',
+  generator: 'iaaaindia.com',
   icons: [
     {
       rel: 'icon',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       type: 'image/png',
     },
     {
-      rel: 'apple-touch-icon',
+      rel: 'icon',
       url: '/icon.png',
       sizes: '180x180',
     },
