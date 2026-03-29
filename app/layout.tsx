@@ -12,9 +12,12 @@ export const metadata: Metadata = {
   description: 'A national non-profit professional body shaping India\'s aerospace and aviation ecosystem. Building India\'s next generation of aerospace leaders through education, innovation, and collaboration.',
   generator: 'iaaaindia.com',
   icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
-    apple: '/favicon.png',
+    icon: [
+      { url: '/favicon-v2.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon-v2.png', type: 'image/png', sizes: '16x16' },
+    ],
+    shortcut: '/favicon-v2.png',
+    apple: '/favicon-v2.png',
   },
 }
 
