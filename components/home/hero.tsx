@@ -81,7 +81,7 @@ export function Hero() {
         {/* Badge */}
         <div style={fadeDown(0.1)} className="inline-flex items-center gap-2 px-5 py-2 mb-7 bg-blue-500/15 backdrop-blur-md border border-blue-400/35 rounded-full text-sm font-semibold text-blue-300">
           <span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse shrink-0" />
-          India&apos;s most active aero professional body (Not for profit association and foundation)
+          India&apos;s most active aero professional body
         </div>
 
         {/* Headline line 1 */}

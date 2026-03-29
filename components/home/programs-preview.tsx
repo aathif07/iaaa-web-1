@@ -11,7 +11,7 @@ const programs = [
   { icon: Wrench, title: "Aircraft Maintenance Technician", description: "One-year diploma for MRO & AME careers.", tag: "Diploma", bg: "bg-orange-50", color: "text-orange-600" },
   { icon: Award, title: "AMT with NDT Specialization", description: "Level II Certification (UT, RT, PT, MT, VT).", tag: "Diploma", bg: "bg-purple-50", color: "text-purple-600" },
   { icon: Cpu, title: "Drone Architecture", description: "Design, Assembly, Flight Operations & Industry Use.", tag: "Diploma", bg: "bg-green-50", color: "text-green-600" },
-  { icon: Plane, title: "Short-Term Training", description: "Airline Operations, AME, NDT, Composites.", tag: "Training", bg: "bg-sky-50", color: "text-sky-600" },
+  { icon: Plane, title: "Internship Program", description: "Airline Operations, AME, NDT, Composites.", tag: "Training", bg: "bg-sky-50", color: "text-sky-600" },
   { icon: Rocket, title: "Career-Focused NDT", description: "Job-ready with international Level II certification.", tag: "Training", bg: "bg-rose-50", color: "text-rose-600" },
 ]
 
