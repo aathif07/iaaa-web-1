@@ -1,9 +1,10 @@
 "use client"
 
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, ShieldCheck, Globe2 } from "lucide-react"
+import { ArrowRight, ShieldCheck, Globe2, ChevronLeft, ChevronRight } from "lucide-react"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const features = [
@@ -19,8 +20,34 @@ const features = [
      },
 ]
 
+const homePreviewFiles = [
+  "IMG_3977.jpg",
+  "IMG_2244.JPG",
+  "KAVI0343.JPG",
+  "WhatsApp Image 2023-07-27 at 14.04.42.jpeg",
+  "IMG-20250530-WA0036.jpg",
+  "WhatsApp Image 2025-04-24 at 18.35.37_76c7391b.jpg",
+  "DSC00201.JPG",
+  "xy-4.jpg",
+]
+
+const aboutPreviewImages = homePreviewFiles.map(
+  (file) => `/homw%20page%20image%20/${encodeURIComponent(file)}`
+)
+
 export function AboutPreview() {
   const { ref, isVisible } = useScrollAnimation(0.15)
+  const [activeImage, setActiveImage] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveImage((prev) => (prev + 1) % aboutPreviewImages.length)
+    }, 3000)
+    return () => clearInterval(interval)
+  }, [])
+
+  const goPrev = () => setActiveImage((prev) => (prev === 0 ? aboutPreviewImages.length - 1 : prev - 1))
+  const goNext = () => setActiveImage((prev) => (prev + 1) % aboutPreviewImages.length)
 
   return (
     <section ref={ref} className="py-20 md:py-28 bg-white">
@@ -37,21 +64,45 @@ export function AboutPreview() {
             }}
           >
             {/* Background gradient decoration */}
-            <div className="absolute -top-8 -left-8 w-48 h-48 bg-gradient-to-br from-blue-200/30 via-purple-200/20 to-transparent rounded-full blur-3xl" />
-            <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-gradient-to-tl from-blue-100/30 to-transparent rounded-full blur-3xl" />
+            <div className="absolute -top-8 -left-8 w-48 h-48 bg-linear-to-br from-blue-200/30 via-purple-200/20 to-transparent rounded-full blur-3xl" />
+            <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-linear-to-tl from-blue-100/30 to-transparent rounded-full blur-3xl" />
 
-            {/* Main Image */}
-            <div className="relative rounded-3xl overflow-hidden aspect-square sm:aspect-4/5 shadow-2xl shadow-slate-300 bg-slate-100 border border-slate-100 group hover:shadow-3xl transition-shadow duration-500">
-              <Image
-                src="/aboutimage.jpg"
-                alt="IAAA Aerospace Education"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
-              />
-              {/* Subtle overlay */}
-              <div className="absolute inset-0 bg-linear-to-t from-black/10 via-transparent to-transparent" />
+            {/* One-by-one Large Gallery Preview */}
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-slate-300 bg-slate-100 border border-slate-100 p-3 sm:p-4">
+              <div className="relative rounded-2xl overflow-hidden h-105 sm:h-125 lg:h-145 bg-white">
+                <Image
+                  src={aboutPreviewImages[activeImage]}
+                  alt={`About preview ${activeImage + 1}`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  priority
+                />
+
+                <div className="absolute inset-0 bg-linear-to-t from-slate-900/35 via-transparent to-transparent" />
+
+                <div className="absolute top-3 right-3 px-3 py-1.5 rounded-full bg-black/50 text-white text-xs font-semibold">
+                  {activeImage + 1} / {aboutPreviewImages.length}
+                </div>
+
+                <button
+                  type="button"
+                  onClick={goPrev}
+                  className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/45 hover:bg-black/60 text-white flex items-center justify-center transition-colors"
+                  aria-label="Previous image"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+
+                <button
+                  type="button"
+                  onClick={goNext}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/45 hover:bg-black/60 text-white flex items-center justify-center transition-colors"
+                  aria-label="Next image"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
             </div>
 
             {/* Decorative dot pattern */}
@@ -60,7 +111,7 @@ export function AboutPreview() {
             />
             
             {/* Additional accent line decoration */}
-            <div className="absolute -left-6 top-1/2 w-12 h-1 bg-gradient-to-r from-blue-500 to-transparent rounded-full opacity-60" />
+            <div className="absolute -left-6 top-1/2 w-12 h-1 bg-linear-to-r from-blue-500 to-transparent rounded-full opacity-60" />
           </div>
 
           {/* ── Right: Text Content ── */}

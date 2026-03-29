@@ -170,7 +170,7 @@ function AboutIntro() {
             className="relative"
           >
             <div className="relative aspect-4/3 rounded-3xl overflow-hidden shadow-2xl">
-              <Image src="/aboutimage.jpg" alt="IAAA Team" fill className="object-cover" />
+              <Image src="/homw%20page%20image%20/IMG_2244.JPG" alt="IAAA student aerospace activity" fill className="object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-slate-900/40 to-transparent" />
             </div>
             {/* Floating badge */}
