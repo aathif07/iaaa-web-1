@@ -63,7 +63,7 @@ export function Footer() {
           <div className="lg:col-span-4">
             {/* Logo — same as header */}
             <Link href="/" className="inline-flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 group">
-              <div className="relative w-12 sm:w-14 h-12 sm:h-14 shrink-0">
+              <div className="relative w-24 sm:w-28 h-24 sm:h-28 shrink-0">
                 <Image
                   src="/logo.png"
                   alt="IAAA Logo"
@@ -71,10 +71,6 @@ export function Footer() {
                   className="object-contain"
                   priority
                 />
-              </div>
-              <div>
-                <span className="text-lg sm:text-xl font-bold text-white block leading-tight">IAAA</span>
-                <span className="text-xs sm:text-sm text-blue-300 font-medium">Aerospace Institute</span>
               </div>
             </Link>
 
@@ -194,7 +190,7 @@ export function Footer() {
             <div className="space-y-4">
               {contactInfo.map((item) => (
                 <div key={item.label} className="flex gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <div className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center shrink-0 mt-0.5">
                     <item.icon className="w-3.5 h-3.5 text-blue-400" />
                   </div>
                   <div>

@@ -21,9 +21,9 @@ const features = [
 ]
 
 const homePreviewFiles = [
-  "IMG_3977.jpg",
+  "SRP_0542.JPG",
   "IMG_2244.JPG",
-  "KAVI0343.JPG",
+  "IMG-20251108-WA0009.jpg",
   "WhatsApp Image 2023-07-27 at 14.04.42.jpeg",
   "IMG-20250530-WA0036.jpg",
   "WhatsApp Image 2025-04-24 at 18.35.37_76c7391b.jpg",

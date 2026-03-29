@@ -8,18 +8,18 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 const memberships = [
   {
     icon: User,
-    title: "ANNUAL MEMBERSHIP (PAID)",
+    title: "Student Membership - Annual (Paid)",
     price: "",
     period: "",
     tag: "Most Popular",
     features: ["₹1,000 / year","4-10 certified courses per year","National contests & internships","Workshops and training programs","Official IAAA certificate","Career support & mentorship"],
     cta: "Join as Student",
     href: "/membership#student",
-    highlight: false,
+    highlight: true,
   },
   {
     icon: Briefcase,
-    title: "ANNUAL MEMBERSHIP (Unpaid Volunteer Based)",
+    title: "Professional Membership - Annual (Unpaid Volunteer)",
     price: "",
     period: "",
     tag: "Open",

@@ -7,7 +7,7 @@ import { Check, ArrowRight, Users, Award, Building2, School, MapPin } from "luci
 
 const membershipPlans = [
   {
-    title: "ANNUAL MEMBERSHIP (PAID)",
+    title: "Student Membership - Annual (Paid)",
     price: "",
     period: "",
     icon: Users,
@@ -23,7 +23,7 @@ const membershipPlans = [
     ]
   },
   {
-    title: "ANNUAL MEMBERSHIP (Unpaid Volunteer Based)",
+    title: "Professional Membership - Annual (Unpaid Volunteer)",
     price: "",
     period: "",
     icon: Award,

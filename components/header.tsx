@@ -80,7 +80,7 @@ export function Header() {
 				<div className="flex h-16 sm:h-18 lg:h-20 items-center justify-between">
 					{/* Logo - Left Side */}
 					<Link href="/" className="flex items-center gap-2 sm:gap-3 shrink-0">
-						<div className="relative w-12 sm:w-16 lg:w-20 h-12 sm:h-16 lg:h-20">
+						<div className="relative w-24 sm:w-28 lg:w-32 h-24 sm:h-28 lg:h-32">
 							<Image src="/logo.png" alt="IAAA Logo" fill className="object-contain" priority />
 						</div>
 					</Link>
