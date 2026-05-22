@@ -41,7 +41,7 @@ const socialLinks = [
 ]
 
 const contactInfo = [
-  { icon: MapPin, label: "Address", text: "2nd Floor, PD Trade Center, Y-215, Anna Nagar, Chennai 600037" },
+  { icon: MapPin, label: "Address", text: "12/560, Second Floor, Thiruvalluvar Salai, Block 11, J J Nagar, Mogappair, Chennai, Tamil Nadu 600037." },
   { icon: Mail, label: "Email", text: "admin@iaaaindia.com" },
   { icon: Phone, label: "Phone", text: "+91 9003031454, 9600625741" },
   { icon: Globe, label: "Website", text: "www.iaaaindia.com" },

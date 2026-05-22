@@ -12,7 +12,7 @@ const contactDetails = [
   {
     icon: MapPin,
     label: "Visit Us",
-    value: "2nd Floor, PD Trade Center, Anna Nagar, Chennai 600037"
+    value: "12/560, Second Floor, Thiruvalluvar Salai, Block 11, J J Nagar, Mogappair, Chennai, Tamil Nadu 600037."
   },
   {
     icon: Mail,

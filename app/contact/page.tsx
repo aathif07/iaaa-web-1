@@ -6,7 +6,7 @@ import { MapPin, Mail, Phone, Globe, Clock, Send, Linkedin, Instagram, Youtube, 
 function useVisible(t=0.12){const ref=useRef<HTMLDivElement>(null);const [v,setV]=useState(false);useEffect(()=>{const el=ref.current;if(!el)return;const obs=new IntersectionObserver(([e])=>{if(e.isIntersecting)setV(true)},{threshold:t});obs.observe(el);return()=>obs.disconnect();},[t]);return{ref,v};}
 
 const contactInfo=[
-  {icon:MapPin,label:"Address",value:"2nd Floor, PD Trade Center, Y-215, Anna Nagar, Chennai 600037"},
+  {icon:MapPin,label:"Address",value:"12/560, Second Floor, Thiruvalluvar Salai, Block 11, J J Nagar, Mogappair, Chennai, Tamil Nadu 600037."},
   {icon:Mail,label:"Email",value:"admin@iaaaindia.com",href:"mailto:admin@iaaaindia.com"},
   {icon:Phone,label:"Phone",value:"+91 9003031454 / 9600625741",href:"tel:+919003031454"},
   {icon:Globe,label:"Website",value:"www.iaaaindia.com",href:"https://www.iaaaindia.com"},
